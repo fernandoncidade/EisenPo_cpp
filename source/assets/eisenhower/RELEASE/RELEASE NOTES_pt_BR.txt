@@ -1,0 +1,617 @@
+NOTAS DE LANÇAMENTO: Versão 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Resumo Geral
+Esta versão consolida uma ampla renovação na transparência de informações, na organização dos guias de uso, na estabilidade do ambiente de estudo ativo e na limpeza do pacote distribuído aos usuários. Todas as telas de informações legais, termos de uso, direitos autorais e políticas de privacidade do aplicativo principal e de seus módulos integrados foram atualizadas e padronizadas em português e inglês. Ao mesmo tempo, o manual interativo de instruções ganhou explicações passo a passo sobre como consultar essas informações e aproveitar os recursos do programa, enquanto a instalação e o carregamento do aplicativo ficaram ainda mais enxutos, rápidos e autossuficientes.
+
+Novidades, Ajustes e Melhorias
+
+1. Central Completa de Transparência, Licenciamento e Privacidade na Janela Sobre
+- Documentos Atualizados em Todos os Módulos: Ao abrir Opções -> Sobre, você encontra todos os textos de apresentação, termos de licença, avisos de direitos autorais, avisos de terceiros e políticas de privacidade totalmente alinhados para o aplicativo principal e para cada módulo integrado (Matriz de Eisenhower, Temporizador Pomodoro, Método Feynman, Registro de Atividades e Cronograma de Gantt com Simulação 4D).
+- Privacidade Local e Desinstalação Limpa Esclarecidas: Os avisos explicam de forma simples e direta que todos os dados permanecem armazenados apenas na pasta local do usuário no próprio computador, sem envio pela internet e sem coleta de estatísticas, com remoção limpa pelas Configurações do Windows.
+- Consulta Rápida e Busca Integrada: A janela permite alternar entre as abas principais e sub-abas de cada ferramenta, pesquisar qualquer termo no conteúdo exibido e abrir facilmente as referências oficiais de licenças públicas.
+
+2. Manual de Instruções Interativo Ampliado e Mais Fácil de Navegar
+- Novas Orientações Práticas: O manual em Opções -> Manual foi atualizado com explicações detalhadas sobre como consultar as abas informativas, os termos de uso, as notas de versão e as garantias de privacidade offline diretamente dentro do programa.
+- Navegação Direta por Índice e Busca: As instruções esclarecem passo a passo como saltar pelos capítulos do índice lateral ou digitar palavras-chave na barra de pesquisa integrada para ir diretamente ao ponto desejado.
+
+3. Estabilidade Contínua e Fluidez no Método Feynman
+- Confiança no Registro de Estudos: O fluxo das cinco etapas do Método Feynman (Conceito, Explique com Simplicidade, Lacunas Identificadas, Revisão e Simplificação Final e Descrição) passou por melhorias estruturais internas que garantem salvamento íntegro das anotações, preservação dos rótulos personalizados e sincronia imediata com as tarefas da Matriz de Eisenhower e do Pomodoro.
+
+4. Aplicativo e Instalador Mais Enxutos, Limpos e Ágeis
+- Pacote Enxuto sem Arquivos Redundantes: A organização externa do programa e o processo de empacotamento do instalador foram enxugados para reunir exclusivamente os ícones, sons de alarme, traduções e componentes realmente necessários ao funcionamento pleno no Windows, reduzindo o tamanho do instalador e acelerando a abertura do programa.
+
+5. Sincronia Bilíngue em Português e Inglês
+- Consistência em Todo o Ecossistema: Todas as janelas de apoio, rótulos de versão, manuais internos e notas de atualização mantêm datas, títulos e descrições perfeitamente alinhados entre Português (Brasil) e Inglês em todas as telas do aplicativo.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.9.28.0
+Data: 28 de setembro de 2026
+
+Resumo Geral
+Esta nova versão traz aprimoramentos visuais e ergonômicos essenciais na gestão de projetos, unificando a leitura de prazos e o acompanhamento de cronogramas em todo o aplicativo. Agora, todas as atividades na Tabela WBS e no Diagrama de Gantt contam com a mesma identificação por cores adotada na Simulação 4D BIM, permitindo reconhecer instantaneamente tarefas atrasadas, em andamento, concluídas ou futuras, com destaque especial e contraste elegante para as atividades já finalizadas. Além disso, ao posicionar o ponteiro do mouse sobre qualquer caixa de atividade na linha do tempo, você conta com quadros informativos (tooltips) detalhados, elegantes e totalmente traduzidos em tempo real para o idioma ativo (Português ou Inglês), com datas e horários formatados de acordo com a sua região. Por fim, o sistema integrado de verificação e sincronização de versões foi ampliado para garantir conformidade contínua e atualização automática de todos os documentos e políticas do módulo de Agenda e Registro de Atividades.
+
+Novidades, Ajustes e Melhorias
+
+1. Padronização Visual e Coloração de Status no Diagrama de Gantt e Tabela WBS
+- Identificação Visual Imediata: As atividades exibidas na Tabela WBS e as caixas ou nós de tarefas no Diagrama de Gantt agora compartilham as mesmas cores consagradas no painel da Simulação 4D BIM.
+- Destaque Claro de Prazos e Andamento:
+  - ⚠️ Atrasado: Atividades com prazo vencido ou com início pendente em relação à data atual recebem a mesma coloração de fonte em vermelho vivo do indicador de atraso da simulação, chamando atenção imediata para pontos de atenção no projeto;
+  - ✅ Executado / Concluído: Atividades finalizadas recebem tipografia em verde com tratamento visual diferenciado nas caixas do gráfico de Gantt, assegurando contraste harmonioso e fácil distinção visual em relação às tarefas ainda pendentes;
+  - 🔄 Em Andamento: Atividades em fase ativa de execução são destacadas com tipografia em azul límpido;
+  - ⏳ Futuro: Atividades planejadas que ainda não atingiram sua data de início são apresentadas em tom neutro e suave.
+- Unidade e Consistência: Ao navegar entre a tabela de atividades, o gráfico temporal e a aba de simulação tridimensional, você tem sempre a mesma linguagem visual de cores, facilitando a tomada de decisões e a supervisão de obras e projetos.
+
+2. Quadros Informativos (Tooltips) Detalhados e Tradução Dinâmica em Tempo Real
+- Informação Completa ao Passar o Mouse: Ao posicionar o cursor sobre qualquer nó ou barra de atividade no Diagrama de Gantt, uma janela de informações rápida apresenta um resumo completo:
+  - Nome completo da atividade e código correspondente na estrutura de trabalho;
+  - Indicador colorido do status da atividade;
+  - Datas e horários exatos de início e término;
+  - Duração prevista em dias úteis;
+  - Percentual físico de progresso concluído;
+  - Identificação clara se a atividade pertence ao Caminho Crítico (com destaque em vermelho caso seja crítica);
+  - Folga total disponível em horas.
+- Tradução Instantânea Sem Reiniciar: Todas as informações e etiquetas desses quadros informativos respondem instantaneamente ao comando de troca de idioma (Português ou Inglês), adaptando de imediato os rótulos, as respostas afirmativas ou negativas e as descrições de status.
+- Formatação Regional de Datas e Horários: As datas são exibidas automaticamente no padrão de sua preferência (dia/mês/ano para português ou mês/dia/ano para inglês), com horários detalhados.
+- Transição Suave e Limpa: Ao alternar de idioma com janelas abertas, os quadros informativos anteriores são recolhidos de maneira limpa, garantindo que o novo texto seja apresentado com total nitidez e precisão.
+
+3. Gestão e Sincronização Unificada de Documentação no Ecossistema
+- Cobertura Total do Módulo de Agenda: As ferramentas internas de gestão de versões agora abrangem integralmente todos os documentos de apresentação, termos contratuais, licenças e políticas de privacidade do módulo de Agenda e Registro de Atividades.
+- Sincronia Documental Permanente: Todos os módulos integrados ao programa (EisenPo principal, Pomodoro, Feynman, Agenda e Gantt/BIM 4D) mantêm agora conformidade absoluta de versões e datas em português e inglês, garantindo transparência, integridade e clareza para o usuário em qualquer modalidade de uso.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.9.27.0
+Data: 27 de setembro de 2026
+
+Resumo Geral
+Esta versão histórica consolida a unificação definitiva do ecossistema EisenPo, integrando de forma nativa e inseparável todas as suas ferramentas essenciais dentro do aplicativo principal. As ferramentas de foco Pomodoro, estudos com o Método Feynman, Registro de Atividades avaliativas e o Cronograma de Gantt com Simulação BIM 4D agora fazem parte direta do programa executável, eliminando a dependência de arquivos complementares externos e garantindo estabilidade absoluta, máxima rapidez e funcionamento permanente em qualquer computador com Windows. Paralelamente, o sistema de idiomas foi totalmente centralizado e unificado, garantindo traduções perfeitas e instantâneas em todas as telas, enquanto o salvamento e a sincronização das tarefas ocorrem de modo invisível e sem qualquer pausa ou travamento visual durante o seu uso diário.
+
+Novidades, Ajustes e Melhorias
+
+1. Integração Nativa e Permanente de Todos os Módulos
+- Tudo em um Único Aplicativo: Os recursos de execução com Pomodoro, aprendizado ativo pelo Método Feynman, agendas com Registro de Atividades e gestão avançada de projetos com o Cronograma de Gantt e Simulação 4D agora são componentes nativos integrados diretamente no coração do EisenPo.
+- Confiabilidade Absoluta: Não há mais risco de complementos ausentes, bloqueios por antivírus ou incompatibilidades entre versões. Todas as ferramentas estão sempre presentes e prontas para uso imediato.
+- Abertura Instantânea: Menus, janelas auxiliares, tabelas e modos integrados de visualização abrem com velocidade máxima e fluidez ininterrupta ao clique do mouse.
+- Gerenciador de Recursos Simplificado: A janela de informações de componentes agora reflete com clareza a prontidão operacional de todas as ferramentas nativas do sistema.
+
+2. Catálogo Unificado de Idiomas e Traduções Instantâneas
+- Bilinguismo Completo em Tempo Real: A alternância entre Português (Brasil) e Inglês (Estados Unidos) atualiza imediatamente todas as janelas, abas, botões, colunas de tabelas, menus de contexto e avisos de todos os módulos de produtividade sem exigir o reinício do programa.
+- Consistência e Clareza: Todas as mensagens, instruções de uso e diálogos foram revisados e harmonizados para oferecer uma experiência intuitiva, elegante e sem termos truncados em qualquer idioma selecionado.
+
+3. Gravação Instantânea e Fluidez Contínua nas Tarefas
+- Salvamento Suave em Segundo Plano: A inclusão, edição, movimentação por arrasto e conclusão de tarefas respondem no mesmo instante aos comandos do mouse e do teclado, registrando os dados com total segurança sem travar a tela.
+- Sincronização em Tempo Real com o Cronograma: As alterações realizadas na Matriz de Eisenhower — como prazos, estimativas e ciclos Pomodoro concluídos — continuam sendo refletidas de imediato nas barras de progresso do Gráfico de Gantt, mantendo seu planejamento sempre sincronizado.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.9.26.0
+Data: 26 de setembro de 2026
+
+Resumo Geral
+Esta nova versão traz melhorias essenciais no conforto de uso, na preservação das suas escolhas visuais e na rapidez de acesso a todas as ferramentas do aplicativo. Agora, o arranjo visual que você escolhe para as tabelas e para o cronograma na janela de "Gestão de Cronograma, Gantt & BIM 4D" é lembrado e restaurado automaticamente sempre que você reiniciar o programa. Além disso, todas as funcionalidades do menu Ferramentas — incluindo o Registro de Atividades, a geração de tarefas recorrentes, os lembretes locais e as revisões de estudo — abrem de forma imediata ao clique do mouse, eliminando completamente as pausas e os travamentos temporários de tela. Por fim, a estabilidade geral do sistema foi reforçada para garantir que todos os componentes e bancos de dados operem com perfeita fluidez no Windows.
+
+Novidades, Ajustes e Melhorias
+
+1. Memorização Automática do Layout das Tabelas no Cronograma Gantt & BIM 4D
+- Suas Escolhas Sempre Preservadas: Ao organizar o espaço de trabalho na janela do cronograma através do menu Configurações > Layout > Tabelas, a opção escolhida passa a ser gravada de forma permanente.
+- Cinco Modos Visuais Disponíveis:
+  - Original: Divide a parte superior da tela meio a meio entre a tabela de atividades e o gráfico de cronograma, mantendo a simulação da construção na parte inferior;
+  - Vertical Topo: Posiciona as tabelas lado a lado na metade de cima da tela e deixa o gráfico de cronograma em destaque em toda a base inferior;
+  - Vertical Inferior: Destaca o gráfico de cronograma em toda a parte superior da tela e coloca as tabelas lado a lado na parte de baixo;
+  - Horizontal Esquerda: Agrupa as tabelas empilhadas verticalmente no lado esquerdo da tela e dedica todo o lado direito ao gráfico de cronograma;
+  - Horizontal Direita: Coloca o gráfico de cronograma no lado esquerdo da tela e posiciona as tabelas empilhadas verticalmente no lado direito.
+- Restauração Automática ao Abrir: Sempre que você abrir a janela do cronograma ou reiniciar o aplicativo, o layout selecionado anteriormente é recarregado de imediato, exatamente como você configurou, sem necessidade de reajustes manuais.
+- Preservação das Demais Preferências: O salvamento dessa configuração respeita e preserva todas as outras preferências que você já definiu na tela principal do programa.
+
+2. Abertura Instantânea de Todas as Ferramentas de Produtividade
+- Acesso Imediato Sem Esperas: Todas as ferramentas disponíveis no menu Ferramentas abrem agora de forma instantânea e suave ao serem acionadas.
+- Fim dos Travamentos de Tela: Foi eliminada a lentidão e o congelamento temporário que aconteciam ao abrir janelas como Registro de Atividades, Gerar próximas recorrências, Ativar lembretes locais, Criar revisões espaçadas ou o próprio Cronograma de Gantt.
+- Leitura Direta e Resposta Ágil: As informações das suas tarefas são acessadas de forma direta, sem forçar leituras lentas ou gravações repetitivas no computador enquanto você navega pelos menus.
+- Construção Visual Otimizada: As janelas de diálogo agora preparam suas tabelas e prévias visuais em um único instante, proporcionando uma experiência de uso extremamente ágil e agradável.
+
+3. Maior Estabilidade e Inicialização Perfeita de Componentes
+- Comunicação Confiável com o Banco de Dados: O mecanismo de inicialização do programa foi aprimorado para garantir que os módulos de dados internos e os registros de atividades carreguem com total rapidez e sem qualquer falha no Windows.
+- Sincronização Inteligente do Cronograma: O cronograma atualiza seus dados de maneira inteligente quando está visível na tela, economizando recursos do seu computador quando a janela estiver minimizada ou em segundo plano.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.9.25.0
+Data: 25 de setembro de 2026
+
+Resumo Geral
+Esta nova versão traz avanços fundamentais no acompanhamento do progresso das suas atividades, na integração em tempo real entre suas tarefas e o cronograma de projetos, e na experiência de uso em múltiplos idiomas. O percentual de conclusão das tarefas no Gráfico de Gantt agora reflete fielmente o esforço real dedicado através dos ciclos de foco executados no Pomodoro, avançando em degraus proporcionais e previsíveis sem acréscimos arbitrários iniciais. Além disso, qualquer alteração realizada em suas tarefas — como mudança de prazos, edição de detalhes, avanço de etapas ou marcação de conclusão — reflete-se de forma imediata e transparente em todo o cronograma. Por fim, todas as ferramentas de produtividade, como a geração de tarefas recorrentes e o agendamento de lembretes locais, receberam suporte integral à tradução dinâmica, permitindo alternar entre Português e Inglês com atualização instantânea de todos os botões, opções e avisos na tela.
+
+Novidades, Ajustes e Melhorias
+
+1. Progresso Físico no Cronograma Vinculado aos Ciclos de Foco
+- Cálculo Real e Proporcional: No Gráfico de Gantt, o percentual de avanço de cada atividade passa a ser calculado de forma estrita pela quantidade de blocos de foco Pomodoro já concluídos em relação à meta estimada para aquela tarefa.
+- Degraus Claros e Previsíveis: O progresso avança em passos matematicamente transparentes de acordo com o total de ciclos planejados (por exemplo: para uma meta de 4 ciclos, cada ciclo finalizado avança o progresso em 25%, passando sucessivamente por 0%, 25%, 50%, 75% e 100%).
+- Início Confiável a 0%: Foi eliminado o antigo progresso preliminar de 10% que surgia de forma automática ao iniciar ou vincular tarefas que ainda não tinham ciclos realizados. Tarefas novas iniciam rigorosamente em 0% até que o primeiro bloco de foco seja concluído.
+- Conclusão Direta e Confiável: Ao finalizar todos os blocos de foco planejados ou ao marcar a tarefa manualmente como concluída na Matriz de Eisenhower, a barra de progresso no cronograma atinge com precisão os 100%.
+
+2. Sincronização Imediata e em Tempo Real com o Cronograma
+- Atualização Instantânea: Qualquer modificação feita em suas tarefas — inclusão de novas atividades, alteração de datas de entrega, estimativas de duração, movimentação entre quadrantes de prioridade ou conclusão — é transmitida e atualizada no mesmo instante na janela do Cronograma e no Gráfico de Gantt.
+- Sem Necessidade de Fechar ou Reabrir: Você não precisa mais fechar a janela do cronograma ou forçar recarregamentos para ver as atualizações mais recentes: os dados permanecem sempre alinhados entre a matriz e o gráfico.
+
+3. Tradução Dinâmica Completa nas Ferramentas de Produtividade
+- Atualização em Tempo Real: Ao trocar o idioma do aplicativo entre Português e Inglês, todas as janelas auxiliares de produtividade já abertas adaptam seus textos imediatamente, sem necessidade de reiniciar o programa.
+- Janela de Recorrências 100% Localizada: Todos os botões e comandos da tela "Gerar próximas recorrências" — como "Restaurar padrão", "Gerar ocorrências", "Restaurar tarefas anteriores", "Salvar definições" e "Fechar" —, bem como o aviso de tabela vazia e os formatos de datas, atualizam-se na hora no idioma escolhido.
+- Janela de Lembretes Locais Totalmente Traduzida: A tela "Ativar lembretes locais" traduz instantaneamente todos os botões de ação ("Limpar ativos", "Restaurar padrão", "Aplicar lembretes", "Salvar definições", "Fechar", "Testar aviso"), o grupo "Quando alertar", as opções de horário personalizado ou da tarefa e as mensagens de confirmação de agendamento.
+- Experiência Unificada: As ferramentas de "Fluxo integrado de estudo", "Templates de Tarefas" e "Criar revisões espaçadas" também contam com tradução harmoniosa e imediata de todos os seus elementos interativos.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.9.23.0
+Data: 23 de setembro de 2026
+
+Resumo Geral
+Esta nova versão traz grandes avanços no desempenho de inicialização do aplicativo, na harmonia visual e no conforto do planejamento diário. Agora, o aplicativo abre de maneira totalmente instantânea e ágil, liberando os controles da interface e o cursor do mouse imediatamente, eliminando qualquer sensação de lentidão ou congelamento ao iniciar. A atualização introduz também o novo layout integrado "PoCa", que unifica com elegância o Temporizador Pomodoro, suas configurações e dois calendários completos em uma coluna lateral esquerda perfeitamente alinhada. As molduras contam com alinhamento simétrico impecável, o segundo calendário fica posicionado rente ao primeiro sem vãos excessivos, a replicação dos meses ao expandir a tela segue uma progressão sequencial contínua e a barra de rolagem vertical não sobrepõe mais as bordas dos quadros ao abrir o programa.
+
+Novidades, Ajustes e Melhorias
+
+1. Inicialização Instantânea e Sem Travamentos
+- Abertura Imediata: Ao iniciar o aplicativo, a tela principal e todos os seus recursos ficam prontos para uso em fração de segundo.
+- Interação Liberada sem Esperas: Foi eliminado o congelamento de alguns segundos que ocorria na largada. Você pode clicar nas tarefas, alternar abas ou iniciar seu foco imediatamente, sem que o programa retenha o cursor ou trave a interface.
+
+2. Novo Layout Integrado PoCa (Pomodoro + Calendário Duplo)
+- Centralização de Foco e Tempo: O novo layout reúne em uma única coluna lateral à esquerda tudo o que você precisa para controlar seu tempo ao lado da Matriz de Eisenhower: o quadro do Temporizador, o quadro de Configurações do foco e dois quadros de Calendário completos (mês atual e mês seguinte).
+- Ativação Prática: Acesse o menu Configurações, vá em Layout de Tarefas, Interface do Usuário, selecione PoCa e clique em Ativar (ou Desativar) para alternar conforme a sua preferência.
+
+3. Alinhamento Perfeito das Molduras e Espaçamento Rente
+- Simetria Visual Completa: As bordas laterais (esquerda e direita) dos quatro quadros da coluna lateral (Temporizador, Configurações, Calendário 1 e Calendário 2) ficam rigorosamente alinhadas entre si, proporcionando um visual harmonioso e moderno.
+- Fim dos Vãos Verticais Excessivos: O segundo calendário posiciona-se rente logo abaixo do primeiro com espaçamento suave e uniforme de 6 pixels, idêntico à distância entre as Configurações e o primeiro calendário, aproveitando melhor o espaço da tela.
+
+4. Sequenciamento Lógico dos Meses na Replicação de Calendários
+- Ordem Natural de Leitura: Ao arrastar a barra divisória para alargar a coluna lateral, os calendários se duplicam lado a lado em novas colunas mantendo uma sequência cronológica intuitiva:
+  - Na linha de cima, os meses avançam horizontalmente da esquerda para a direita (por exemplo: Setembro ao lado de Outubro);
+  - Na linha de baixo, os meses continuam a sequência a partir do término da linha superior (por exemplo: Novembro ao lado de Dezembro).
+- Expansão Fluida: A mesma lógica sequencial se adapta automaticamente para três ou mais colunas caso você decida expandir ainda mais a área de trabalho.
+
+5. Dimensionamento Inteligente e Proteção Contra Sobreposição da Barra de Rolagem
+- Bordas Sempre Visíveis: Ao abrir o aplicativo nas dimensões padrão com o layout integrado ativo, o tamanho da coluna lateral já reserva espaço para a barra de rolagem vertical.
+- Sem Cortes na Moldura: A barra de rolagem não sobrepõe nem oculta a linha da moldura direita de nenhum quadro, mantendo todos os contornos nítidos e os quadrantes de tarefas com proporções agradáveis.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.9.21.0
+Data: 21 de setembro de 2026
+
+Resumo Geral
+Esta nova versão aprimora a velocidade de resposta do aplicativo e a transparência no acompanhamento das suas atividades cotidianas. Agora, ao editar tarefas e confirmar as alterações, a janela de diálogo responde e se fecha de forma instantânea, liberando imediatamente a tela para que você continue trabalhando sem nenhuma pausa ou lentidão. Além disso, o quadro "Lista Global de Tarefas" do painel de Calendário agora exibe com total clareza todas as tarefas que estão em andamento, permitindo que você visualize de relance o ciclo de vida completo de cada compromisso, com suporte a tradução imediata entre idiomas e interação direta com arquivos vinculados.
+
+Novidades, Ajustes e Melhorias
+
+1. Resposta Instantânea ao Aplicar Edições de Tarefas
+- Confirmação Imediata: Ao concluir a edição de qualquer tarefa e clicar no botão "OK", o aplicativo registra as modificações de imediato e fecha a janela de confirmação no mesmo instante, eliminando qualquer sensação de congelamento ou espera.
+- Gravação e Sincronização Fluidas: O salvamento dos dados e a sincronização com as demais áreas de planejamento ocorrem suavemente em segundo plano, garantindo agilidade máxima para continuar organizando suas atividades.
+
+2. Exibição Completa de Tarefas em Andamento no Calendário ([Em Progresso])
+- Visibilidade Total do Ciclo de Vida: O quadro "Lista Global de Tarefas:" e os balões informativos de datas no Calendário agora reportam não apenas tarefas concluídas e pendentes, mas também todas as tarefas ativas com a etiqueta destacada "[Em Progresso]".
+- Acompanhamento Fácil: Você pode conferir rapidamente quais atividades estão em execução no momento, quantos blocos de foco já foram realizados e a respectiva data agendada.
+- Interação Rápida: Clique duas vezes sobre qualquer tarefa da lista para abrir diretamente seu arquivo vinculado ou utilize o botão direito do mouse para acessar o menu de contexto e gerenciar a atividade com praticidade.
+
+3. Tradução Dinâmica e Consistência entre Idiomas
+- Troca Instantânea: Ao alternar o idioma do aplicativo entre Português e Inglês, todas as etiquetas de status do Calendário — incluindo "[Em Progresso]" e "[In Progress]" —, bem como suas mensagens e dicas informativas, são traduzidas em tempo real sem a necessidade de reiniciar o programa.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.9.20.0
+Data: 20 de setembro de 2026
+
+Resumo Geral
+Esta nova versão traz grandes aprimoramentos focados na precisão do gerenciamento de tempo, na flexibilidade da execução de tarefas e na velocidade do aplicativo. Agora, cada tarefa pode ter sua própria meta individual de ciclos de foco no Pomodoro, permitindo que atividades complexas e trabalhos rápidos convivam com metas personalizadas e acompanhamento exato de progresso. Para evitar dúvidas durante o trabalho, um novo alerta inteligente avisa quando as metas das tarefas em andamento diferem do limite configurado no temporizador, oferecendo opções práticas para ajustar tudo em um clique ou continuar conforme o planejado.
+
+A navegação no calendário também foi aperfeiçoada, garantindo uma transição perfeita e contínua ao folhear múltiplos meses lado a lado. A movimentação de tarefas por arrastar e soltar agora responde de forma instantânea e extremamente suave em todos os quadrantes e listas, e a janela do cronograma abre sem nenhuma espera quando não houver alterações pendentes. Por fim, a troca de idioma do aplicativo agora atualiza instantaneamente os textos de todas as janelas e telas que já estiverem abertas, sem necessidade de fechá-las.
+
+Novidades, Ajustes e Melhorias
+
+1. Metas Individuais de Ciclos de Foco para Cada Tarefa
+- Planejamento Sob Medida: Cada tarefa agora pode ter sua própria meta de ciclos (de 1 a 999 ciclos), definida diretamente na janela de edição da tarefa no campo "Meta de Ciclos Pomodoro (🎯)".
+- Flexibilidade Total: Substitui a antiga limitação fixa de 4 ciclos. Tarefas rápidas podem ser concluídas com apenas 1 ou 2 ciclos de foco, enquanto trabalhos mais extensos podem ser planejados com a quantidade exata de ciclos necessária.
+- Progresso Preciso: O percentual de conclusão de cada tarefa é calculado de forma exata e proporcional à sua própria meta de ciclos.
+- Conclusão Inteligente: A tarefa em andamento só é transferida automaticamente para a lista de concluídas quando sua própria meta de ciclos for integralmente atingida.
+
+2. Janela de Alerta e Alinhamento de Metas ao Iniciar o Temporizador
+- Verificação Preventiva: Ao clicar para iniciar o temporizador de foco, o aplicativo verifica com segurança se as tarefas ativas possuem metas diferentes do ciclo configurado no relógio.
+- Comparação Clara e Objetiva: Caso haja divergência, uma janela de aviso exibe uma tabela detalhada com o nome da tarefa, sua origem, sua meta individual, a configuração atual do temporizador e o comportamento esperado durante a sessão.
+- Três Ações Simples para Decidir:
+  - "Redefinir todas para o ciclo do temporizador": ajusta rapidamente todas as tarefas ativas para a mesma meta do relógio e inicia a contagem imediatamente;
+  - "Iniciar mesmo assim": inicia a sessão de foco mantendo as metas individuais de cada tarefa;
+  - "Cancelar": interrompe o início do temporizador, permitindo que você revise suas tarefas com tranquilidade e sem alterar nada.
+
+3. Navegação Contínua e Sincronizada Entre Meses no Calendário
+- Folheamento Coordenado: Ao exibir múltiplos meses no painel de calendário, avançar ou retroceder páginas em qualquer um dos meses atualiza automaticamente todos os outros de maneira encadeada (mês atual, mês seguinte, etc.), mantendo uma ordem cronológica contínua sem saltos ou duplicidades.
+
+4. Movimentação de Tarefas por Arrastar e Soltar com Resposta Instantânea
+- Fluidez Completa: O ato de arrastar e soltar tarefas entre quadrantes, abas de status e listas agora ocorre de forma imediata e limpa, eliminando pausas e garantindo máxima agilidade no dia a dia.
+
+5. Abertura Instantânea da Janela do Cronograma
+- Acesso Imediato: A janela de planejamento de projetos e cronograma abre sem nenhum atraso quando não houver novas alterações pendentes nas tarefas da matriz, permitindo uma navegação rápida entre suas ferramentas de trabalho.
+
+6. Atualização Instantânea de Textos ao Mudar de Idioma
+- Sem Necessidade de Reiniciar: Ao alternar o idioma do aplicativo entre Português e Inglês, todas as telas e janelas que já estiverem abertas — incluindo a edição de tarefas, mensagens e dicas de ajuda — têm seus textos atualizados na mesma hora, preservando tudo o que você estiver fazendo.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.9.14.0
+Data: 14 de setembro de 2026
+
+Resumo Geral
+Esta nova versão aprimora significativamente a experiência visual, a flexibilidade de organização e a estabilidade das janelas de planejamento de projetos e cronogramas. Agora, a janela de Cronograma, Gantt & BIM 4D oferece cinco opções completas de organização de layout para suas tabelas de trabalho e para o gráfico temporal, permitindo que cada usuário escolha a disposição que melhor se adapte ao seu estilo de planejamento ou ao tamanho do seu monitor. Além disso, a tabela de atividades e o gráfico de cronograma agora dividem o espaço da tela de maneira perfeitamente equilibrada e proporcional, meio a meio.
+
+O trabalho em múltiplos monitores também foi aperfeiçoado: ao excluir atividades ou confirmar ações no cronograma em uma segunda tela, todas as caixas de diálogo abrem diretamente sobre a própria janela de cronograma, sem desviar a atenção ou trazer a janela principal para a frente de forma indesejada. A exibição da linha de base de comparação (Linha Fantasma) no gráfico de cronograma foi estabilizada para permanecer visível e contínua mesmo quando você adiciona novas tarefas ou atividades.
+
+Na área de simulação construtiva da edificação, os botões e controles foram totalmente modernizados com uma barra adaptativa inteligente que se reorganiza automaticamente em uma, duas ou três linhas conforme você redimensiona a tela, garantindo que nenhum botão ou indicador de status seja cortado ou sobreposto. Os botões de iniciar, parar e reiniciar mantêm sempre largura confortável para a leitura de seus textos, e o seletor de data de referência fica perfeitamente posicionado ao lado de sua descrição. Por fim, todos os novos menus, botões e telas contam com tradução dinâmica e instantânea entre Português e Inglês.
+
+Novidades, Ajustes e Melhorias
+
+1. Cinco Modos de Layout para as Tabelas e o Gráfico de Cronograma
+- Escolha de Visualização Personalizada: No menu Configurações, acesse a opção Layout e escolha entre cinco formas diferentes de organizar as tabelas e o gráfico de cronograma na tela:
+  - Original: a tabela de atividades e o gráfico de cronograma dividem o topo da tela meio a meio, com a área de simulação construtiva na parte inferior;
+  - Vertical Topo: a tabela de atividades e a tabela de simulação construtiva ficam lado a lado no topo da tela, enquanto o gráfico de cronograma ocupa toda a parte inferior;
+  - Vertical Inferior: o gráfico de cronograma ocupa a parte superior da tela, enquanto a tabela de atividades e a de simulação construtiva ficam lado a lado na parte inferior;
+  - Horizontal Esquerda: as tabelas de atividades e de simulação ficam empilhadas no lado esquerdo da tela, deixando todo o lado direito livre para o gráfico de cronograma;
+  - Horizontal Direita: o gráfico de cronograma ocupa todo o lado esquerdo da tela, enquanto as tabelas de atividades e de simulação ficam empilhadas no lado direito.
+- Memorização Automática: A opção escolhida fica marcada com um indicador visual e é lembrada automaticamente pelo aplicativo sempre que você reabrir o programa.
+
+2. Divisão Proporcional e Equilibrada entre Tabela e Gráfico
+- Distribuição Meio a Meio (50% / 50%): A tabela de atividades do cronograma e o gráfico temporal agora dividem o espaço horizontal de maneira perfeitamente equilibrada, garantindo visibilidade confortável tanto para a leitura das colunas de prazos e dados quanto para o acompanhamento visual das barras de tarefas.
+
+3. Conforto e Foco para Trabalho em Múltiplos Monitores
+- Diálogos Centralizados no Cronograma: Ao excluir atividades ou responder a confirmações na janela de cronograma, as caixas de mensagem abrem centralizadas sobre a própria janela em que você está operando, mesmo quando ela estiver em um segundo monitor.
+- Fim das Interrupções Indesejadas: O sistema não puxa mais a tela principal do aplicativo para o primeiro plano ao executar ações no cronograma, permitindo um fluxo de trabalho focado e contínuo.
+- Exclusão Segura e Sincronizada: A segurança na remoção de itens continua rigorosamente protegida, mantendo a confirmação antes de apagar e a atualização coordenada entre os métodos de planejamento vinculados.
+
+4. Estabilidade da Linha de Base no Gráfico (Linha Fantasma)
+- Comparação Visual Sempre Ativa: A projeção das barras da linha de base original (Linha Fantasma) no gráfico de cronograma agora permanece ativa e estável mesmo quando novas tarefas são criadas na matriz principal ou novas atividades são adicionadas ao cronograma, facilitando a identificação imediata de desvios e prazos em relação ao planejamento inicial.
+
+5. Barra de Controle Inteligente e Adaptativa na Simulação da Construção
+- Reorganização Fluida dos Controles: Ao arrastar as barras divisórias para ajustar o tamanho das áreas da tela, a barra de controles da simulação adapta-se automaticamente ao espaço disponível:
+  - Em telas largas, todos os botões de simulação, o calendário de data e os indicadores de status ficam alinhados em uma única linha;
+  - Em larguras intermediárias, os botões e a data permanecem no topo e os contadores de status passam para uma segunda linha exclusiva logo abaixo;
+  - Em larguras mais compactas, os controles distribuem-se harmonicamente em três linhas (linha 1 com botões de reprodução, linha 2 com a data de referência e barra de avanço temporal, e linha 3 com os contadores de status de execução).
+- Altura Automática sem Sobreposições: A altura do painel se ajusta de forma suave para acomodar as linhas necessárias, evitando qualquer corte, vazamento ou sobreposição sobre a listagem de elementos construtivos.
+
+6. Largura Confortável dos Botões de Simulação
+- Textos Sempre Visíveis: Os botões de iniciar simulação, parar e reiniciar possuem proteção inteligente que assegura largura suficiente para exibir seus nomes completos com clareza, impedindo que as palavras fiquem cortadas ou espremidas, mesmo ao movimentar as divisórias da tela ou alternar entre idiomas.
+
+7. Posicionamento Preciso da Data de Referência
+- Visual Harmônico e Sem Folgas: O calendário de seleção de data foi aproximado de forma elegante do texto "Data de Referência:", eliminando espaços vazios desnecessários e evitando qualquer interferência visual com o botão de reiniciar ou com a barra deslizante de tempo em qualquer modo de exibição.
+
+8. Bilinguismo Completo com Tradução Instantânea
+- Resposta Imediata na Tela: Todas as novas opções de menu, nomes de layouts, mensagens de confirmação e botões contam com suporte nativo em Português e Inglês, atualizando-se instantaneamente na tela ao alternar o idioma, sem necessidade de fechar ou reiniciar o programa.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.9.13.0
+Data: 13 de setembro de 2026
+
+Resumo Geral
+Esta nova versão traz avanços expressivos na flexibilidade do planejamento de projetos, no controle de prazos e no conforto visual ao cadastrar e gerenciar tarefas. O módulo de Cronograma e Gantt agora permite personalizar integralmente o calendário de trabalho do seu projeto: você pode escolher quais dias da semana são dias úteis (permitindo incluir sábados, domingos ou qualquer escala necessária) e definir os horários exatos de início e término da jornada diária, com cálculo automático da carga horária de trabalho. Além disso, foi implementado um poderoso Gerenciador de Feriados com calendário interativo visual e carregamento automático dos feriados nacionais de 18 países com um único clique, garantindo que feriados fixos e móveis sejam tratados como dias de descanso nos cálculos do cronograma.
+
+Na área principal de tarefas, o formulário de cadastro foi totalmente reorganizado em três linhas elegantes e funcionais. As listas de prioridade e de domínio agora ajustam sua largura automaticamente com base no tamanho dos textos, e as tarefas passam a contar com um campo dedicado para definir sua duração em dias. Por fim, o posicionamento dos controles foi blindado contra distorções visuais ao movimentar as barras divisórias da janela, e todo o aplicativo conta com tradução dinâmica e completa para Português e Inglês.
+
+Além disso, a integração entre a Matriz de Eisenhower e o módulo de Cronograma, Gantt & BIM 4D foi elevada ao padrão de sincronização bidirecional completa. A exclusão de tarefas em qualquer um dos quadrantes agora remove em tempo real a respectiva atividade no cronograma, e a exclusão inversa iniciada a partir do Gantt, da Tabela WBS ou da Simulação 4D remove a tarefa de todos os quadrantes do método, do módulo Pomodoro e dos registros persistentes unificados, mantendo rigorosamente o mesmo ciclo de caixas de diálogo de confirmação protegida consagrado no aplicativo. O cálculo de datas e horários foi aprimorado para garantir precisão absoluta em todos os quadrantes — em especial para o quarto quadrante — com exibição de horários e minutos na EAP, e todas as novas interfaces contam com suporte a tradução dinâmica e instantânea entre Português e Inglês.
+
+Novidades, Ajustes e Melhorias
+
+1. Configuração Personalizada de Dias Úteis e Carga Horária Diária
+- Seleção Livre dos Dias de Trabalho: No menu de configurações do cronograma, você pode definir exatamente quais dias da semana são considerados dias de expediente. Se o seu projeto opera aos sábados, aos domingos ou em escalas diferenciadas, basta marcar os dias desejados.
+- Definição da Jornada de Trabalho: Configure os horários de início e encerramento do expediente diário (por exemplo, das 08:00 às 17:00). O sistema calcula e exibe em tempo real a quantidade total de horas e minutos de trabalho útil por dia.
+- Recálculo Automático de Prazos: Ao salvar suas preferências, o cronograma recalcula imediatamente as datas de término de todas as atividades, considerando apenas os dias e horários efetivamente trabalhados.
+
+2. Gerenciador de Feriados com Calendário Interativo e Biblioteca de 18 Países
+- Calendário Visual para Marcar Folgas: Na tela de feriados, navegue facilmente por meses e anos e clique diretamente no calendário para selecionar qualquer data que deva ser considerada como folga ou feriado no cronograma.
+- Cadastro e Remoção Fácil: Digite o nome do feriado e adicione-o com um clique. Feriados cadastrados podem ser consultados em uma lista organizada e excluídos a qualquer momento com facilidade.
+- Carregamento Automático de Feriados de 18 Nações: Escolha um país em uma lista com 18 opções (Brasil, Estados Unidos, Portugal, Argentina, Canadá, Reino Unido, França, Alemanha, Itália, Espanha, Japão, China, México, Chile, Colômbia, Uruguai, Paraguai e Austrália) e clique no botão de aplicar. O aplicativo insere instantaneamente todos os feriados nacionais oficiais, calculando automaticamente tanto as datas fixas quanto os feriados móveis.
+- Tabela com Visual de Engenharia: A listagem de feriados conta com colunas que podem ser redimensionadas arrastando qualquer uma de suas bordas (esquerda ou direita) e realce visual suave ao passar o mouse ou selecionar itens, mantendo perfeita nitidez tanto no tema claro quanto no tema escuro do Windows 11.
+- Tratamento Rigoroso de Dias Não Úteis: Todos os feriados registrados passam a ter o mesmo comportamento de dias de folga no cronograma, sendo pulados automaticamente no cálculo de datas e durações de tarefas.
+
+3. Novo Layout Ergonômico em Três Linhas para Cadastro de Tarefas
+- Organização Visual Fluida: O quadro de inclusão de novas tarefas foi estruturado em três linhas bem definidas, proporcionando leitura limpa e operação intuitiva:
+  - Primeira linha: campo para digitação do título da tarefa e seletor do quadrante de destino;
+  - Segunda linha: seletores de Prioridade e de Nível de Domínio;
+  - Terceira linha: opções para vincular data, vincular horário, novo campo de Duração e o botão para adicionar a tarefa.
+- Ajuste Automático da Largura das Listas: As listas suspensas de prioridade e de nível de domínio agora calculam automaticamente sua largura ideal em tempo de execução com base no maior texto exibido, garantindo que nenhuma palavra seja cortada ou fique excessivamente espaçada, mesmo ao alternar o idioma do aplicativo.
+
+4. Definição de Duração das Tarefas em Dias
+- Duração Explícita: Ao cadastrar ou editar uma tarefa, você pode especificar diretamente a sua duração prevista em dias inteiros.
+- Acompanhamento Completo: A informação da duração acompanha a tarefa em todos os módulos, sendo exibida em detalhes informativos, no calendário e nas listas de acompanhamento de esforço e foco.
+
+5. Proteção Visual Contra Movimentação de Barras Divisórias
+- Estabilidade dos Botões e Controles: Foi implementada uma proteção reforçada de contenção para evitar que o botão de adicionar tarefa ou os seletores sofram qualquer tipo de sobreposição, quebra indevida ou corte visual ao arrastar a barra vertical divisória entre os quadrantes e os painéis laterais da tela.
+
+6. Bilinguismo Completo e Tradução Instantânea
+- Toda a interface gráfica das novas janelas de dias úteis, do gerenciador de feriados, das mensagens de confirmação e dos controles de tarefa conta com suporte nativo e tradução dinâmica entre Português do Brasil e Inglês dos Estados Unidos, atualizando-se instantaneamente na tela sem a necessidade de reiniciar o programa.
+
+7. Sincronização Bidirecional e Ciclo de Exclusão Protegida entre Gantt/BIM 4D e EisenPo
+- Atualização em Tempo Real na Exclusão do EisenPo: Ao excluir uma tarefa em qualquer um dos 12 quadrantes da Matriz de Eisenhower ou limpar tarefas (Novo Arquivo, Limpar Tudo), a atividade correspondente no Diagrama de Gantt, na Tabela WBS e no painel de Simulação 4D BIM é removida imediatamente, desfazendo vínculos e recalculando o Caminho Crítico (CPM).
+- Exclusão Inversa com Ciclo Completo de Diálogos: Ao excluir uma atividade na janela de Cronograma (pelo menu de contexto do Gantt, da Tabela WBS, da Simulação 4D ou via tecla Delete), o sistema dispara o mesmo ciclo protegido em três etapas do EisenPo:
+  1. Confirmação inicial com foco padrão na opção "Não", evitando remoções acidentais;
+  2. Aviso de sincronização entre módulos, informando quais métodos vinculados (EisenPo, Pomodoro, etc.) terão a tarefa excluída;
+  3. Exclusão coordenada em todos os quadrantes, na lista de foco, no armazenamento unificado e confirmação de sucesso com recálculo e salvamento automático do cronograma.
+- Menus Contextuais Ágeis: Opções "✏️ Editar Atividade..." e "❌ Excluir Atividade" disponíveis no botão direito sobre as barras da Linha do Tempo (Canvas), linhas da Tabela WBS e tabela de elementos da Simulação 4D BIM, além de acionamento direto pela tecla Delete.
+
+8. Correção e Rigor no Cálculo de Datas e Horários em Todos os Quadrantes
+- Precisão nos Cálculos do Quadrante 4: Corrigido o cálculo de datas e horários para tarefas criadas no quadrante "Não Importante e Não Urgente" (bem como suas subdivisões de Pendentes, Em Progresso e Concluídas), assegurando alinhamento cronológico exato com o calendário de trabalho configurado.
+- Exibição de Início e Término com Horários e Minutos: As colunas de Início e Término da Tabela WBS agora exibem data e hora com minutos (formato "dd/MM/yyyy HH:mm") sempre que a tarefa possuir horário definido, incluindo tooltips detalhados.
+- Integração Aprimorada com Listas de Progresso: Aperfeiçoado o reconhecimento das listas de tarefas "Em Progresso" de todos os quadrantes ao mapear prioridades e sincronizar atividades no cronograma.
+
+9. Expansão das Chaves de Tradução Dinâmica em Tempo de Execução
+- Cobertura Total de Diálogos e Menus: Todas as novas mensagens de exclusão, avisos de sincronização entre módulos, menus de contexto e notificações da barra de status foram incorporadas aos arquivos de tradução ".ts" e compiladas nos binários ".qm".
+- Alternância Fluida sem Reinicialização: Usuários podem alternar livremente entre Português e Inglês a qualquer momento, e todos os novos diálogos, menus e ações respondem instantaneamente no idioma selecionado.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.9.8.0
+Data: 8 de setembro de 2026
+
+Resumo Geral
+Esta versão traz um grande marco na evolução do aplicativo com a chegada do novo módulo de Gestão de Cronogramas, Gantt e Simulação 4D BIM, projetado para transformar o planejamento físico, o acompanhamento temporal de obras e o gerenciamento de projetos em uma experiência fluida, visual e totalmente integrada à sua rotina diária. A atualização também apresenta uma série de aprimoramentos significativos de usabilidade, conforto visual e agilidade. A interface agora conta com uma barra de menus dedicada que organiza todas as ações principais em menus claros e diretos. As tabelas de planejamento ganharam um controle de redimensionamento muito mais flexível e intuitivo, além de uma seleção de células precisa e sem desvios. O realce visual das informações foi totalmente aperfeiçoado para se adaptar com suavidade e elegância tanto ao tema claro quanto ao tema escuro do Windows 11, preservando o contraste e as cores dos seus dados. Além disso, foram adicionadas ferramentas avançadas de controle de prazos com salvamento e comparação de Linha de Base, visualização da Linha Fantasma para acompanhar o cronograma planejado e recálculo instantâneo de prazos e caminhos críticos.
+
+A versão também inclui melhorias profundas de desempenho que tornam a alternância entre idiomas instantânea e sem travamentos, tradução dinâmica em tempo real para todos os cabeçalhos da linha do tempo e tabelas de simulação, além de proteção inteligente para evitar conflitos entre etapas do planejamento.
+
+Novidades, Ajustes e Melhorias
+
+1. Novo Módulo de Gestão de Cronograma, Gantt e Simulação 4D BIM
+
+- Planejamento Estruturado do Projeto: Organize projetos em fases, entregas e etapas hierárquicas. Ao agrupar tarefas sob uma etapa principal, o sistema calcula e atualiza automaticamente as datas totais de início, término e o avanço físico consolidado de todas as atividades filhas.
+- Linha do Tempo e Gráfico Visual de Gantt: Acompanhe o andamento das tarefas em uma régua temporal horizontal contínua e elegante, com opções para visualizar o projeto em escala diária, semanal ou mensal, linha indicadora do dia atual e setas visuais de conexão que mostram a ordem das etapas dependentes.
+- Identificação Automática do Caminho Crítico: O sistema calcula com precisão matemática as atividades que determinam o prazo final da obra ou projeto, destacando-as automaticamente com barras em vermelho vibrante para que você saiba exatamente onde manter o foco máximo.
+- Prevenção Amigável contra Conflitos Circulares: Se ao conectar dependências entre tarefas você acidentalmente tentar fazer uma etapa depender de si mesma ou criar um ciclo fechado de dependências, o programa avisa com clareza e impede o conflito, preservando a coerência do cronograma.
+- Vínculo Direto com a Matriz de Eisenhower: Clique com o botão direito sobre qualquer tarefa nos quatro quadrantes da matriz para vinculá-la diretamente a uma atividade do cronograma. O percentual de avanço é sincronizado automaticamente, e as atividades vinculadas exibem um indicador visual claro.
+- Simulação Construtiva Virtual 4D: Conecte identificadores de elementos virtuais da edificação (modelos tridimensionais) às tarefas do cronograma e acompanhe a evolução física da obra por meio de um reprodutor de vídeo interativo, visualizando em tempo real o status de cada componente (planejado, em construção, concluído, adiantado ou em atraso).
+- Compartilhamento e Intercâmbio de Dados: Importe e exporte cronogramas completos em planilhas para troca de informações com outros programas de gerenciamento de projetos e planilhas de trabalho.
+- Novo Atalho de Teclado: Abra a janela de cronograma e simulação a qualquer momento pressionando o atalho Ctrl+Shift+B, pelo menu Ferramentas ou pelo menu de contexto das tarefas.
+
+2. Nova Barra de Menus no Cronograma e Simulação 4D
+
+- Menus Dedicados "Arquivo" e "Configurações": Todas as principais opções de trabalho foram organizadas em uma barra de menus superior clara e prática.
+- Menu Arquivo: Crie rapidamente novas atividades, edite detalhes completos de prazos e etapas, exclua itens com segurança e importe ou exporte seus cronogramas em planilhas para troca de informações com outros programas.
+- Menu Configurações: Acesse ferramentas para conectar dependências entre etapas, recalcular prazos e caminhos críticos, salvar e comparar linhas de base, alternar a exibição da linha fantasma, ajustar o zoom da linha do tempo em dias, semanas ou meses, e sincronizar tarefas com a Matriz de Eisenhower.
+- Tradução Imediata: Toda a barra de menus e suas opções adaptam-se instantaneamente ao alternar o idioma do aplicativo entre Português e Inglês, sem precisar reiniciar o programa.
+
+3. Troca Instantânea de Idiomas Sem Congelamentos
+
+- Agilidade Total na Interface: Ao alternar entre Português e Inglês nas configurações, a tela do aplicativo, as listas de tarefas, os quadrantes da matriz e os painéis laterais atualizam todos os seus textos em fração de segundo.
+- Operação em Segundo Plano: O carregamento dos pacotes de tradução e a sincronização das informações de tarefas vinculadas agora acontecem suavemente nos bastidores, eliminando qualquer pausa ou sensação de travamento na janela principal, mesmo com dezenas de tarefas cadastradas.
+
+4. Tradução Dinâmica Completa em Tempo Real
+
+- Linha do Tempo Totalmente Localizada: Os meses do ano e os dias da semana na régua da linha do tempo acompanham imediatamente a troca de idioma sem necessidade de fechar ou reabrir janelas.
+- Rótulos e Tabelas Sincronizados: As etiquetas de tarefas vinculadas e todas as colunas da tabela de simulação construtiva, como status de evolução e identificadores de elementos, adaptam-se ao vivo em tempo de execução ao idioma selecionado.
+
+5. Redimensionamento Mais Flexível e Intuitivo nas Tabelas
+
+- Ajuste pelas Duas Bordas das Colunas: Agora você pode redimensionar qualquer coluna arrastando tanto a borda direita quanto a borda esquerda do cabeçalho. Arrastar a borda direita para a direita aumenta a coluna, e para a esquerda diminui; arrastar a borda esquerda para a esquerda aumenta a coluna, e para a direita diminui.
+- Altura das Linhas Ajustável na Simulação 4D: Na tabela de simulação, agora também é possível ajustar confortavelmente a altura das linhas arrastando as divisórias do cabeçalho lateral para cima ou para baixo.
+
+6. Seleção Precisa de Células, Colunas e Linhas
+
+- Seleção Exata Sem Saltos: Ao clicar com o mouse sobre qualquer célula de uma tabela, o aplicativo seleciona com exatidão a célula que foi clicada, eliminando seleções acidentais de células vizinhas.
+- Seleção Múltipla Descomplicada: Selecione blocos contínuos de células arrastando com o mouse ou mantendo pressionada a tecla Shift, ou escolha células avulsas mantendo pressionada a tecla Ctrl.
+- Seleção de Colunas e Linhas Inteiras: Clique no cabeçalho superior de uma coluna para selecioná-la por completo, ou no cabeçalho lateral numerado para selecionar uma linha inteira, inclusive com suporte a selecionar várias colunas ou linhas de uma só vez.
+
+7. Realce Visual Confortável e Adaptado aos Temas do Windows 11
+
+- Adaptação ao Tema Escuro: Ao passar o mouse sobre as células ou selecioná-las, o sistema aplica um realce em cinza suave ligeiramente mais claro que o fundo, eliminando clarões brancos e proporcionando uma leitura agradável e descansada para a visão.
+- Adaptação ao Tema Claro: No tema claro, o realce aplica um cinza equilibrado ligeiramente mais escuro que o fundo, evitando tons pretos ou azuis chamativos que dificultavam a visualização.
+- Propagação Fluida: O efeito visual suave propaga-se de maneira harmoniosa seja ao selecionar uma célula, várias células, uma linha inteira ou uma coluna inteira.
+- Cores de Status Sempre Nítidas: As etiquetas e cores originais dos status de acompanhamento continuam perfeitamente vivas e legíveis, incluindo as marcações de executado, em andamento, atrasado e futuro.
+
+8. Controle de Prazos com Linha de Base e Linha Fantasma
+
+- Salvar Linha de Base: Guarde uma cópia estática do planejamento original aprovado para servir de referência durante toda a execução da obra ou projeto.
+- Comparar Linha de Base: Compare visualmente e em detalhes o andamento atual com as datas previstas originalmente para identificar atrasos ou antecipações de etapas.
+- Linha Fantasma na Linha do Tempo: Ative a linha fantasma para visualizar, diretamente sobre o gráfico de barras, a projeção do plano original lado a lado com a execução real.
+- Recálculo Imediato de Prazos: Recalcule sob demanda as datas, folgas e o caminho crítico de todas as etapas com apenas um clique.
+
+9. Sincronização Ágil com as Tarefas do EisenPo
+
+- Integração sob Demanda: Sincronize o percentual de conclusão e os vínculos das tarefas entre a Matriz de Eisenhower e o cronograma a qualquer momento.
+- Importação Direta: Importe tarefas da matriz para transformá-las rapidamente em etapas estruturadas dentro do cronograma do projeto.
+
+10. Informações e Termos de Uso do Módulo Integrados
+
+- Documentação Acessível: Os termos de licença, políticas de privacidade, avisos de direitos e informações sobre o módulo de cronograma agora podem ser consultados diretamente na janela "Sobre" do aplicativo, tanto em Português quanto em Inglês.
+
+Observações Importantes:
+
+- Todos os seus dados, tarefas, cronogramas, anotações e preferências continuam totalmente preservados e seguros no armazenamento local do seu computador.
+- As novas funcionalidades e aprimoramentos passam a funcionar imediatamente ao iniciar a nova versão.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.9.6.0
+Data: 6 de setembro de 2026
+
+Resumo Geral
+Esta atualização traz importantes aprimoramentos de usabilidade, conforto visual e personalização para o seu dia a dia. A janela de edição de tarefas foi completamente renovada com redimensionamento inteligente e botões de maximizar e minimizar; o módulo do Método Feynman agora permite personalizar livremente o nome das suas etapas de estudo; as opções do menu de tarefas foram reorganizadas em uma sequência mais intuitiva; e o alinhamento visual de molduras e divisores foi padronizado com total precisão.
+
+Novidades, Ajustes e Melhorias
+
+1. Janela "Editar Tarefa" Mais Ampla, Confortável e Inteligente
+- Novos Controles de Janela: Agora você pode maximizar a janela de edição de tarefas para ocupar a tela inteira com apenas um clique no botão de maximizar no canto superior direito, além de contar com o botão de minimizar.
+- Organização Espaçosa em Modo Amplo: Ao alargar ou maximizar a janela, a visualização se reorganiza automaticamente para oferecer muito mais espaço de leitura e escrita: o campo de anotações e descrição expande-se amplamente por toda a metade esquerda, enquanto os detalhes (título da tarefa, prioridade, domínio, pomodoros, arquivos e datas) e os botões "OK" e "Cancelar" se acomodam de forma organizada no canto inferior direito.
+- Transição Suave e Sem Oscilações: Ao arrastar as bordas laterais para ampliar ou reduzir a janela, a transição entre o formato compacto e o formato expandido ocorre de maneira suave e estável, sem tremuras ou saltos visuais.
+- Proteção Contra Sobreposição ao Estreitar a Altura: Ao diminuir a altura da janela pelas bordas superior ou inferior, todos os textos e botões permanecem protegidos, evitando que as notas invadam ou fiquem amontoadas sobre os outros campos.
+
+2. Personalização dos Rótulos das Etapas do Método Feynman
+- Novo Diálogo "Editar Rótulos": No módulo Feynman, acesse o menu "Configurações > Editar Rótulos" para renomear e adaptar as cinco etapas de aprendizagem ao vocabulário do seu curso, disciplina ou rotina de estudos.
+- Visualização Clara em Três Colunas: A janela apresenta lado a lado o nome original padrão de cada etapa, o nome que está sendo usado atualmente e um campo aberto para você digitar o seu novo rótulo personalizado.
+- Ações Rápidas: Use o botão "Aplicar" para ver as alterações imediatamente em todas as abas e painéis do Feynman, o botão "Restaurar" para voltar aos nomes originais a qualquer momento com um clique, e o botão "Fechar" para sair.
+- Novo Botão "Fechar" no Rodapé: A janela principal do Feynman agora conta com um botão dedicado "Fechar" no canto inferior, permitindo encerrar a tela de estudos com rapidez.
+
+3. Reorganização Intuitiva do Menu de Tarefas
+- Nova Ordem de Ações: Ao clicar com o botão direito sobre qualquer tarefa na Matriz de Eisenhower, o menu agora apresenta as opções em uma sequência mais prática e alinhada ao seu fluxo de trabalho:
+  1. ✏️ Editar Tarefa
+  2. 🪢 Descrição Feynman
+  3. 🔁 Recorrência
+  4. 🎨 Colorir tarefas
+  5. 🔤 Configurações de Fonte
+  6. 🔀 Mover para outro quadrante
+  7. 🗑️ Remover Tarefa
+
+4. Alinhamento Perfeito de Molduras e Divisores Verticais
+- Moldura "Nova Tarefa" Sincronizada: As linhas do contorno do quadro de inserção de novas tarefas foram ajustadas para que as bordas esquerda e direita fiquem perfeitamente alinhadas com as molduras dos quadrantes situados logo abaixo.
+- Espessura Padronizada das Barras Divisórias: As barras verticais que separam o Calendário, o Pomodoro e os Quadrantes da matriz foram calibradas para exibir exatamente a mesma espessura, garantindo um visual limpo, moderno e equilibrado em toda a tela.
+
+Observações Importantes:
+- Todas as suas tarefas, anotações, arquivos vinculados e configurações permanecem totalmente preservados no armazenamento local do seu computador.
+- Todas as melhorias e correções entram em vigor imediatamente ao iniciar a versão atualizada.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.8.22.0
+Data: 22 de agosto de 2026
+
+Resumo Geral
+Esta atualização aprimora significativamente a experiência visual e a legibilidade de todas as listas de tarefas do aplicativo. Introduz suporte abrangente a quebra automática de linha para textos e títulos longos, redimensionamento responsivo instantâneo ao ajustar janelas e painéis, renderização tipográfica precisa e elegante para tarefas com arquivos vinculados e tarefas concluídas com texto em múltiplas linhas, além de um comportamento mais inteligente para barras de rolagem.
+
+Novidades, Ajustes e Melhorias
+
+1. Quebra Automática de Linha e Leitura Fluida de Textos Longos
+- Ajuste Automático de Texto: Todas as listas de tarefas do aplicativo — incluindo todos os modos de exibição da Matriz de Eisenhower (Abas, Quadrantes e Matriz 2x2), o painel lateral do Calendário, a janela do Calendário e os quadros de tarefas do módulo Pomodoro — agora contam com quebra automática de linha integrada.
+- Leitura Completa e Sem Cortes: Títulos detalhados e notas mais extensas são exibidos integralmente de forma clara e legível, sem cortes ou truncamentos horizontais de palavras.
+
+2. Redimensionamento Responsivo e Ajuste Instantâneo de Altura
+- Adaptação Dinâmica em Tempo Real: Ao redimensionar a janela principal, expandir colunas ou movimentar as barras divisórias entre os quadrantes e painéis laterais, a altura dos itens e a distribuição do texto são recalculadas e ajustadas instantaneamente.
+- Estabilidade e Harmonia Visual: Elimina sobreposições de itens e garante uma navegação suave, fluida e consistente em qualquer resolução de tela ou formato de monitor.
+
+3. Visual Aprimorado para Tarefas com Arquivos Vinculados e Tarefas Concluídas
+- Precisão Tipográfica Superior: A formatação visual de tarefas que possuem arquivos externos anexados (com título sublinhado) e de tarefas concluídas (com título riscado/tachado) foi totalmente aperfeiçoada.
+- Formatação Perfeita em Múltiplas Linhas: O sublinhado e o risco acompanham a extensão exata dos títulos mesmo quando o texto quebra em duas ou mais linhas, mantendo excelente contraste, alinhamento impecável e preservando as cores de destaque e seleção tanto no tema Claro quanto no tema Escuro.
+
+4. Navegação e Rolagem Inteligente
+- Barras de Rolagem Sob Demanda: A exibição de barras de rolagem foi otimizada para ocorrer apenas quando estritamente necessária, proporcionando listas mais amplas, limpas e sem distrações visuais.
+
+Observações Importantes:
+- Todas as suas tarefas, configurações, históricos e arquivos continuam totalmente preservados e seguros no armazenamento local do seu computador.
+- Todas as melhorias e correções entram em vigor imediatamente ao iniciar a nova versão.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.8.17.0
+Data: 17 de agosto de 2026
+
+Resumo Geral
+Esta atualização traz novos modos de visualização em abas para a Matriz de Eisenhower (Layout Horizontal e Layout Vertical), aprimora o alinhamento visual e a estabilidade estrutural do quadro "Nova Tarefa" em todos os layouts visuais, aperfeiçoa a execução confiável dos alarmes sonoros do Pomodoro com prévia e calibração de volume, e adiciona tradução dinâmica em tempo de execução para os textos de status das abas.
+
+Novidades, Ajustes e Melhorias
+
+1. Novos Modos de Layout em Abas: Horizontal e Vertical
+- Organização Flexível: No menu "Configurações > Layout de Tarefas > Interface do Usuário > EisenPo > Layout em Abas", você pode agora escolher entre duas orientações de exibição:
+  - "Horizontal": organiza as colunas de tarefas lado a lado em disposição horizontal ampla, ideal para monitores widescreen.
+  - "Vertical": exibe as tarefas empilhadas verticalmente de forma compacta e focada por quadrante.
+- Dimensionamento Inteligente e Dinâmico: A largura mínima de cada layout é calculada dinamicamente com base na extensão dos títulos das abas e colunas de status, garantindo que nenhum texto seja cortado ou comprimido excessivamente.
+
+2. Alinhamento Perfeito e Estabilidade do Quadro "Nova Tarefa"
+- Disposição Consistente em Duas Linhas: Os controles de inserção de tarefas (descrição, seletor de quadrante, prioridade, nível de domínio, vínculos de data/horário e botão de adição) mantêm uma distribuição harmoniosa e estável em duas linhas de controles, impedindo sobreposições ou quebras visuais ao redimensionar a janela ou movimentar barras divisórias.
+- Alinhamento Lateral Simétrico: As bordas laterais (esquerda e direita) do contorno do quadro "Nova Tarefa" alinham-se milimetricamente com as extremidades externas dos quadrantes da Matriz de Eisenhower nos layouts em Abas, Quadrantes e Matriz 2x2.
+
+3. Sistema de Alarme Sonoro do Pomodoro Aperfeiçoado
+- Seleção e Prévia de Sons (.wav): No menu "Configurações > Configurações Específicas > Pomodoro > Alarme", selecione o som desejado na lista suspensa e utilize os botões "▶️ Tocar" e "⏹️ Parar" para ouvir uma prévia antes de salvar, com exibição em tempo real da duração do áudio em segundos.
+- Reprodução Confiável e Imediata: O alarme sonoro configurado é reproduzido instantaneamente com volume calibrado ao término de cada sessão de foco e pausa, com suporte a repetições periódicas e avanço automático no Modo Automático.
+
+4. Tradução Dinâmica em Tempo de Execução das Abas de Status
+- Bilinguismo Instantâneo: Os títulos e abas de status ("Pendentes", "Em Progresso" e "Concluídas") são atualizados dinamicamente ao alternar o idioma do aplicativo entre Português (pt_BR) e Inglês (en_US), sem necessidade de reiniciar.
+
+Observações Importantes:
+- Todas as suas tarefas, configurações, históricos e arquivos permanecem preservados no armazenamento local do seu computador.
+- As melhorias entram em vigor imediatamente ao iniciar a nova versão.
+
+_________________________________________________
+
+NOTAS DE LANÇAMENTO: Versão 2026.8.15.0
+Data: 15 de agosto de 2026
+
+Resumo Geral
+Temos o orgulho de apresentar o lançamento oficial do EisenPo (versão 2026.8.15.0) — um ecossistema completo, nativo e moderno de produtividade, organização de tarefas e aprendizado estruturado, construído em C++17 e Qt 6.11.1. O EisenPo reúne de forma fluida a clássica Matriz de Eisenhower com técnicas consagradas como o Método Pomodoro, a Técnica Feynman de estudos e um avançado sistema de Registro de Atividades e Agendas, proporcionando privacidade total com armazenamento 100% local, alta performance e personalização visual incomparável.
+
+História e Desenvolvimento do Projeto
+O EisenPo nasceu da necessidade de unir métodos comprovados de gestão de tempo e aprendizado em uma aplicação desktop rápida, elegante e totalmente autônoma. Ao longo de ciclos intensivos de arquitetura e desenvolvimento, o projeto evoluiu de ferramentas isoladas para uma suíte coesa e integrada.
+
+Priorizando o respeito à privacidade e à soberania digital do usuário, o aplicativo não requer cadastro na nuvem, telemetria intrusiva ou conexões obrigatórias à internet: todos os dados, configurações, históricos e arquivos permanecem armazenados com segurança no ambiente local do seu computador.
+
+Principais Recursos e Funcionalidades
+
+1. Matriz de Eisenhower Completa e Adaptável
+- Organização em 4 Quadrantes Estratégicos:
+  - Quadrante 1: Importante e Urgente (Fazer Agora).
+  - Quadrante 2: Importante, mas Não Urgente (Planejar e Agendar).
+  - Quadrante 3: Não Importante, mas Urgente (Delegar ou Otimizar).
+  - Quadrante 4: Não Importante e Não Urgente (Eliminar distrações).
+- Três Modos de Layout Visual:
+  - "Layout em Abas": Navegação rápida e focada entre os quadrantes.
+  - "Layout em Quadrantes": Visualização vertical expandida dos 4 quadrantes.
+  - "Layout Matriz 2x2": Visão panorâmica simultânea em grade 2x2 dos quatro quadrantes, ideal para telas amplas.
+- Separação Inteligente de Estados:
+  - Abas "Pendente" e "Concluídas" em cada quadrante, mantendo a área de trabalho limpa e o histórico preservado.
+- Arraste e Solte Fluido (Drag-and-Drop):
+  - Arraste tarefas individuais ou seleções múltiplas diretamente entre quadrantes, abas ou estados de conclusão com reposicionamento dinâmico.
+
+2. Calendário Anual e Mensal Integrado
+- Navegação Temporal Completa:
+  - Visualização de tarefas por data, permitindo planejamento de curto, médio e longo prazo.
+  - Destaque visual automático de dias que contêm tarefas agendadas.
+- Lista Global de Tarefas:
+  - Painel lateral com visão geral de todas as tarefas cadastradas, com suporte a filtros, edição rápida e remoção segura.
+
+3. Módulo Integrado de Foco — Método Pomodoro
+- Temporizador de Foco Completo:
+  - Gestão de blocos de foco, pausas curtas e pausas longas com ciclos configuráveis.
+- Modo Automático Inteligente:
+  - Transições autônomas entre sessões de foco e descanso com número personalizável de repetições do alarme sonoro.
+- Sincronização e Quadro de Tarefas Dedicado:
+  - Quadro de tarefas com contador de pomodoros estimados e realizados, com sincronização bidirecional entre o EisenPo e o Pomodoro.
+
+4. Módulo de Aprendizado Estruturado — Técnica Feynman
+- Quadro de Estudos com 4 Etapas Estruturadas:
+  - 1. Conceito: Definição clara do tema de estudo.
+  - 2. Explique com Simplicidade: Redação em linguagem acessível como se ensinasse a uma criança.
+  - 3. Lacunas Identificadas: Mapeamento de dúvidas, pontos cegos e tópicos a aprofundar.
+  - 4. Revisão e Simplificação Final: Síntese definitiva e refinamento do conhecimento.
+- Flexibilidade Visual:
+  - Visualização em Abas, Vertical ou Horizontal para se adaptar perfeitamente ao estilo de leitura e anotação do usuário.
+
+5. Registro de Atividades e Agendas Hierárquicas
+- Gestão Completa de Compromissos:
+  - Cadastro detalhado com curso, ementa, semestre, disciplina, turma, tipo de atividade, data, horário, prioridade e nível de domínio.
+- Listas Aninhadas em Árvore Hierárquica:
+  - Criação de listas dependentes (ex.: Curso > Semestre > Disciplina) com integridade referencial automática.
+- Agendas Personalizadas:
+  - Criação e alternância entre múltiplos perfis de agenda com esquemas de cores customizáveis.
+
+6. Vínculo e Gerenciamento Seguro de Arquivos Externos
+- Suporte a Anexos e Links Diretos:
+  - Vincule PDFs, documentos, planilhas ou arquivos de qualquer formato às tarefas através de botão seletor ou arrastando diretamente do Windows Explorer.
+- Abertura Nativa Segura:
+  - Abertura de arquivos com validação rigorosa de integridade e tratamento resiliente de caminhos e caracteres especiais.
+
+7. Personalização Visual e Tipográfica Avançada
+- Modos Visuais de Cores:
+  - Modo "Preto": Tipografia padronizada e adaptável dinamicamente aos Temas Claro e Escuro do Windows 10/11.
+  - Modo "Coloridas": Destaque cromático por categoria, disciplina ou prioridade.
+- Coloração Livre de Tarefas:
+  - Selecione uma ou várias tarefas para aplicar cores de destaque personalizadas com seletor de cores completo.
+- Tipografia Independente:
+  - Personalização completa de fonte (família, tamanho, estilo, negrito, itálico, sublinhado e tachado) para tarefas gerais e tarefas com arquivo vinculado.
+
+8. Tradução Dinâmica em Tempo Real (Bilinguismo Nativo)
+- Alternância Instantânea de Idioma:
+  - Suporte completo a Português do Brasil (pt_BR) e Inglês dos Estados Unidos (en_US).
+  - Troca instantânea em tempo de execução sem necessidade de reiniciar o aplicativo, abrangendo menus, botões, diálogos, formulários e contadores.
+
+9. Segurança de Dados, Confiabilidade e Monitoramento
+- Exclusão Segura e Purga Síncrona:
+  - Janelas de confirmação contextual com proteção contra cliques acidentais e opção de limpeza geral síncrona dos módulos.
+- Gerenciador de Logs em Tempo Real:
+  - Monitor integrado para acompanhamento cronológico de eventos e diagnósticos de execução.
+- Arquitetura Nativa:
+  - Compilação otimizada para arquitetura x64 com suporte a MinGW e MSVC/Ninja, garantindo inicialização veloz e baixo consumo de memória.
+
+Observações Importantes:
+- O EisenPo foi concebido como software local e permanente: seus arquivos, configurações e tarefas permanecem exclusivamente no seu dispositivo.
+- Agradecemos a todos os usuários, testadores e apoiadores que tornaram este lançamento possível. Aproveite o EisenPo para alcançar o mais alto nível de foco, clareza e produtividade!

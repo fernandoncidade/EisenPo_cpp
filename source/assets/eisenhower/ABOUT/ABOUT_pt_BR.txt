@@ -1,0 +1,33 @@
+Projeto: EisenPo
+Versão: 2026.11.22.0
+Data: 28 de setembro de 2026
+Autor: Fernando Nillsson Cidade
+E-mail: linceu_lighthouse@outlook.com
+Repositório Oficial (GNU AGPLv3): https://github.com/fernandoncidade/EisenPo_cpp
+Microsoft Store (Edição Oficial): https://apps.microsoft.com/detail/9P289X0185C3
+
+Descrição:
+EisenPo é um aplicativo desktop nativo para Windows desenvolvido em C++ moderno e Qt 6.12.0 para organização estratégica de tarefas pela Matriz de Eisenhower (Importante × Urgente), integrando nativamente no mesmo executável os módulos de produtividade Pomodoro, Feynman, Agenda (Registro de Atividades) e Cronograma Gantt & BIM 4D.
+
+Principais funcionalidades:
+- Matriz de Eisenhower em 4 quadrantes (Pendente, Em Progresso e Concluída), layouts Abas/Quadrantes/2×2 e PoCa (2×K).
+- Painel Nova Tarefa em 3 linhas com Duração em dias, editor responsivo EditTaskDialog e calendário mensal/anual.
+- Módulo Pomodoro: ciclos configuráveis, metas individuais (1–999), alerta de metas e alarmes .wav sob demanda.
+- Módulo Feynman: fluxo de estudo ativo em 5 etapas com rótulos customizáveis e arquivos de apoio locais.
+- Módulo Agenda: cadastro de atividades avaliativas e agendas hierárquicas em banco local SQLite (listas.db).
+- Módulo Gantt & BIM 4D: EAP/WBS, cálculo de Caminho Crítico (CPM DAG), calendário laboral, feriados de 18 países (Meeus/Jones/Butcher), baselines, linha fantasma, simulação 4D (eisenpo_gantt.db) e CSV.
+- Importação/exportação local (JSON, CSV, XLSX, PDF, ICS) e alternância dinâmica Português/Inglês.
+
+Arquitetura Nativa & Soberania de Dados (100% Local-First):
+- Todos os módulos (Eisenhower, Pomodoro, Feynman, Agenda e Gantt & BIM 4D) são compilados nativamente em um único executável Windows x64 (C++ / Qt 6.12.0), sem DLLs de plugins externas e sem envio de telemetria.
+- Todas as tarefas (tarefas.json), preferências visuais (layout.json, language.json, fontes), estudos Feynman (feynman_rotulos_config.json), banco SQLite da Agenda (listas.db e agendas/*.json), cronogramas SQLite do Gantt (eisenpo_gantt.db) e logs (logs/file_eisenpo_*.log) permanecem exclusivamente em %LOCALAPPDATA%\EisenPo no dispositivo do usuário.
+- Desinstalação limpa garantida pelas Configurações do Windows ou Menu Iniciar, sem serviços residentes.
+
+Duplo Licenciamento Transparente & Independência da Microsoft:
+- Código-Fonte Público (GitHub): Licenciado sob GNU Affero General Public License v3 (GNU AGPLv3 — arquivo LICENSE). Qualquer pessoa ou organização pode estudar, modificar, compilar (MSVC 14.52 ou MinGW-w64 15.1.0) e redistribuir obras derivadas nos termos da AGPLv3.
+- Liberdade Total para Desenvolvedores em source/assets/: A documentação institucional em source/assets/ foi criada para atender às diretrizes da Microsoft Store; o autor autoriza expressamente que desenvolvedores e forks alterem, excluam, adicionem ou adaptem tais arquivos em suas próprias distribuições.
+- Pacote Oficial da Microsoft Store: Regido pelo EULA Oficial do autor (em harmonia com os Termos da Microsoft Store e direitos irrenunciáveis do consumidor), vedada revenda comercial paga não autorizada do pacote oficial assinado.
+- A Microsoft NÃO presta suporte ao cliente e NÃO cobre este software sob a Política de Privacidade da Microsoft. Suporte voluntário best-effort apenas pelo e-mail linceu_lighthouse@outlook.com e GitHub Issues.
+
+Escopo Auxiliar e Isenção Legal ("AS IS"):
+Este aplicativo gratuito destina-se ao uso como aplicativo auxiliar de produtividade pessoal, estudos, gestão de tarefas e planejamento de cronogramas (e não instrumento definitivo para contratos ou obras críticas). Por poder conter limitações ou falhas humanas no código-fonte e nos algoritmos, resultados críticos devem ser conferidos de forma independente. Fornecido "NO ESTADO EM QUE SE ENCONTRA" ("AS IS"), sem garantias além das imperativas por lei (EULA Oficial, Lei nº 9.609/1998 e GNU AGPLv3 Seções 15-16).

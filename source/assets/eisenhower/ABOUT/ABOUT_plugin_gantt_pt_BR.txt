@@ -1,0 +1,32 @@
+Projeto: EisenPo
+ID do Módulo: plugin_gantt
+Versão: 2026.11.22.0
+Data: 28 de setembro de 2026
+Autor: Fernando Nillsson Cidade
+E-mail: linceu_lighthouse@outlook.com
+Repositório Oficial (GNU AGPLv3): https://github.com/fernandoncidade/EisenPo_cpp
+Microsoft Store (Edição Oficial): https://apps.microsoft.com/detail/9P289X0185C3
+
+Descrição:
+Módulo nativamente integrado ao EisenPo estruturado em Clean Architecture (4 camadas) para planejamento de cronogramas, Tabela EAP/WBS hierárquica, Diagrama de Gantt interativo com cores unificadas e tooltips dinâmicos, motor analítico de Caminho Crítico (CPM DAG com detecção preventiva de ciclos), Calendário Laboral e Feriados de 18 países (Meeus/Jones/Butcher), Baselines, Linha Fantasma e Simulação Construtivo-Temporal 4D BIM sobre banco SQLite local (eisenpo_gantt.db).
+
+Principais funcionalidades:
+- Motor analítico CPM em grafo direcionado acíclico (DAG) calculando datas cedo/tarde e folgas livres/totais (FS, SS, FF, SF).
+- 5 modos de layout persistentes em layout.json, divisão 50%/50% EAP/Gantt e redimensionamento bidirecional de colunas.
+- Progresso físico discreto vinculado exatamente aos ciclos Pomodoro (pomodoros_completados / pomodoros_estimados) e tooltips bilíngues ao vivo.
+- Calendário laboral configurável + gestor de feriados de 18 países com cálculo de Páscoa (Meeus/Jones/Butcher).
+- Simulação temporal 4D BIM vinculada a IFC GUID / UniqueId, cache O(1) com a Matriz de Eisenhower e importação/exportação CSV.
+
+Arquitetura Nativa & Soberania de Dados (100% Local-First):
+- Todos os módulos (Eisenhower, Pomodoro, Feynman, Agenda e Gantt & BIM 4D) são compilados nativamente em um único executável Windows x64 (C++ / Qt 6.12.0), sem DLLs de plugins externas e sem envio de telemetria.
+- Cronogramas, EAP/WBS, custos, dependências, baselines, calendários, simulações 4D e caches permanecem estritamente locais em %LOCALAPPDATA%\EisenPo (eisenpo_gantt.db e layout.json). O código auxiliar em Gantt/api/ não é instanciado em execução, mantendo operação 100% offline e zero tráfego de rede.
+- Desinstalação limpa garantida pelas Configurações do Windows ou Menu Iniciar, sem serviços residentes.
+
+Duplo Licenciamento Transparente & Independência da Microsoft:
+- Código-Fonte Público (GitHub): Licenciado sob GNU Affero General Public License v3 (GNU AGPLv3 — arquivo LICENSE). Qualquer pessoa ou organização pode estudar, modificar, compilar (MSVC 14.52 ou MinGW-w64 15.1.0) e redistribuir obras derivadas nos termos da AGPLv3.
+- Liberdade Total para Desenvolvedores em source/assets/: A documentação institucional em source/assets/ foi criada para atender às diretrizes da Microsoft Store; o autor autoriza expressamente que desenvolvedores e forks alterem, excluam, adicionem ou adaptem tais arquivos em suas próprias distribuições.
+- Pacote Oficial da Microsoft Store: Regido pelo EULA Oficial do autor (em harmonia com os Termos da Microsoft Store e direitos irrenunciáveis do consumidor), vedada revenda comercial paga não autorizada do pacote oficial assinado.
+- A Microsoft NÃO presta suporte ao cliente e NÃO cobre este software sob a Política de Privacidade da Microsoft. Suporte voluntário best-effort apenas pelo e-mail linceu_lighthouse@outlook.com e GitHub Issues.
+
+Escopo Auxiliar e Isenção Legal ("AS IS"):
+Este aplicativo gratuito destina-se ao uso como ferramenta auxiliar de planejamento e estudo de cronogramas/BIM 4D (não certificada como instrumento único para prazos contratuais, orçamentos ou controle oficial de obras). Por poder conter limitações ou falhas humanas no código-fonte e nos algoritmos, resultados críticos devem ser conferidos de forma independente. Fornecido "NO ESTADO EM QUE SE ENCONTRA" ("AS IS"), sem garantias além das imperativas por lei (EULA Oficial, Lei nº 9.609/1998 e GNU AGPLv3 Seções 15-16).

@@ -1,0 +1,19 @@
+COPYRIGHT AND TRADEMARK NOTICE — Integrated Gantt & 4D BIM Module
+Module ID: plugin_gantt
+Version: 2026.11.22.0
+Date: November 22, 2026
+================================================================================
+
+Copyright (C) 2025-2026 Fernando Nillsson Cidade. All rights reserved.
+
+The EisenPo software (Integrated Gantt & 4D BIM Module) and its associated original documentation — including C++ / Qt 6.12.0 source code, UI views, user manuals, scheduling/CPM/4D BIM logic, icons, and translation catalogs — are the intellectual property of Fernando Nillsson Cidade. All third-party libraries and components (including Qt 6.12.0 under GNU LGPLv3, FFmpeg-n9.0.1 under LGPLv2.1+, SQLite in the Public Domain, and MinGW-w64 / Microsoft MSVC runtimes) belong to their respective authors and rightsholders.
+
+The name "EisenPo" is a project reference mark authored by Fernando Nillsson Cidade (reserved under GNU AGPLv3 Section 7(e)). Tasks, study notes, linked documents, agendas, and project schedules created or imported by the user remain the sole property of the user. Microsoft, Windows, and Microsoft Store are trademarks of Microsoft Corporation cited purely descriptively; this project is neither affiliated with nor endorsed by Microsoft.
+
+DUAL-LICENSING CLARIFICATION & DEVELOPER GUIDELINES:
+----------------------------------------------------
+1. Purpose of This Documentation: Files under source/assets/ (ABOUT, CLC, COPYRIGHT, EULA, LICENSES, NOTICES, PRIVACY_POLICY, and RELEASE) were written to satisfy Microsoft Store compliance, transparency, and publishing rules.
+2. Full Freedom for Developers: The author explicitly authorizes developers, contributors, and forks to modify, delete, add, or freely adapt this documentation and the associated codebase in their own distributions and target platforms, subject only to local laws and platform policies.
+3. Open-Source Codebase (GNU AGPLv3): The complete source code is publicly available at https://github.com/fernandoncidade/EisenPo_cpp under the GNU Affero General Public License v3 (GNU AGPLv3). Anyone is entirely free to inspect, compile, build independent binaries, modify, and redistribute their own builds under GNU AGPLv3.
+4. Boundary for Author's Official Binary: Only the binary package compiled, packaged, and officially published by the author on the Microsoft Store (https://apps.microsoft.com/detail/9P289X0185C3) and official author installers is governed by the Official EULA and is NOT authorized for third-party paid commercial resale or trademark hijacking (reverse engineering for code inspection is unnecessary since the full original source code is open on GitHub).
+5. Auxiliary Scope & Disclaimer ("AS IS"): EisenPo serves as an auxiliary tool for schedule planning and 4D BIM study (not certified as a sole binding instrument for contractual schedules, budgets, or regulated construction controls). Supplied "AS IS" without express or implied warranties beyond non-waivable statutory law (Official EULA, Law No. 9.609/1998, and GNU AGPLv3 Sections 15-16).

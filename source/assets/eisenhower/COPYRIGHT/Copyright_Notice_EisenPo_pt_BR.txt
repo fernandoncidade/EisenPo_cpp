@@ -1,0 +1,19 @@
+AVISO DE COPYRIGHT E MARCA REGISTRADA — EisenPo — Matriz de Eisenhower (Núcleo Host)
+Produto: Matriz de Eisenhower
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+================================================================================
+
+Copyright (C) 2025-2026 Fernando Nillsson Cidade. Todos os direitos reservados.
+
+O software EisenPo (EisenPo — Matriz de Eisenhower (Núcleo Host)) e sua documentação original associada — incluindo código-fonte em C++ / Qt 6.12.0, interface gráfica, manuais, algoritmos de organização e cronograma (CPM/BIM 4D), ícones e catálogos de tradução — são de autoria e propriedade intelectual de Fernando Nillsson Cidade. Todas as bibliotecas e componentes de terceiros (incluindo Qt 6.12.0 sob GNU LGPLv3, FFmpeg-n9.0.1 sob LGPLv2.1+, SQLite em Domínio Público e runtimes MinGW-w64 / Microsoft MSVC) pertencem aos seus respectivos autores e titulares.
+
+O nome "EisenPo" é marca de referência do projeto criada por Fernando Nillsson Cidade (protegida inclusive sob a Seção 7(e) da GNU AGPLv3). Tarefas, anotações, arquivos vinculados, agendas e cronogramas criados ou importados pelo usuário permanecem sob titularidade exclusiva do próprio usuário. Microsoft, Windows e Microsoft Store são marcas registradas do grupo Microsoft citadas apenas de forma descritiva; este software não é afiliado nem endossado pela Microsoft.
+
+ESCLARECIMENTO DE DUPLO LICENCIAMENTO E DIRETRIZES PARA DESENVOLVEDORES:
+-------------------------------------------------------------------------
+1. Finalidade desta documentação: A documentação contida no diretório source/assets/ (ABOUT, CLC, COPYRIGHT, EULA, LICENSES, NOTICES, PRIVACY_POLICY e RELEASE) foi elaborada para atender às exigências de conformidade, transparência e publicação na Microsoft Store.
+2. Liberdade Total para Desenvolvedores: O autor autoriza expressamente desenvolvedores, colaboradores e forks a realizarem quaisquer alterações, exclusões, adições e modificações gerais nesta documentação e no código associado em suas próprias distribuições e plataformas, observadas as normas da respectiva plataforma e a legislação vigente em seus países.
+3. Código-Fonte Aberto (Licença GNU AGPLv3): O código-fonte integral está disponibilizado publicamente em https://github.com/fernandoncidade/EisenPo_cpp sob a Licença GNU Affero General Public License v3 (GNU AGPLv3). Qualquer pessoa ou organização possui total liberdade para inspecionar, compilar, modificar e redistribuir suas próprias compilações de acordo com a GNU AGPLv3.
+4. Restrição sobre o Binário Oficial do Autor: Apenas o pacote binário compilado, assinado e distribuído oficialmente pelo autor na Microsoft Store (https://apps.microsoft.com/detail/9P289X0185C3) e instaladores oficiais é regido pelo EULA Oficial e NÃO possui autorização para revenda comercial paga ou apropriação indevida da marca por terceiros (ressaltando-se que engenharia reversa é desnecessária para estudo, pois o código-fonte original já está integralmente disponível no GitHub).
+5. Escopo Auxiliar e Isenção ("AS IS"): O EisenPo destina-se ao uso como ferramenta auxiliar de priorização estratégica e organização de tarefas. Fornecido "NO ESTADO EM QUE SE ENCONTRA" ("AS IS"), sem garantias além das imperativas em lei (EULA Oficial, Lei nº 9.609/1998 e GNU AGPLv3 Seções 15-16).

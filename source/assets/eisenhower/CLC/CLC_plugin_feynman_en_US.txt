@@ -1,0 +1,32 @@
+COMMERCIAL LICENSING CLARIFICATION & DUAL LICENSING — Integrated Feynman Module
+Module ID: plugin_feynman
+Version: 2026.11.22.0
+Date: November 22, 2026
+
+Author and Developer: Fernando Nillsson Cidade (Individual Developer)
+Support & Contact Email: linceu_lighthouse@outlook.com
+Official Repository (GNU AGPLv3): https://github.com/fernandoncidade/EisenPo_cpp
+Microsoft Store (Official Package): https://apps.microsoft.com/detail/9P289X0185C3
+
+--------------------------------------------------------------------------------
+
+1. OPEN SOURCE CODEBASE AND TRANSPARENCY (GNU AGPLv3):
+The complete source code of EisenPo and its natively integrated modules (Pomodoro, Feynman, Agenda, and Gantt & 4D BIM) is publicly published on GitHub under the GNU Affero General Public License v3 (GNU AGPLv3). Any individual or organization holds full freedom to inspect, audit, compile, modify, and distribute independent builds in full compliance with GNU AGPLv3 (plus upstream Qt 6.12.0 LGPLv3 / FFmpeg-n9.0.1 LGPLv2.1+ / SQLite attributions).
+
+2. DOCUMENTATION IN source/assets/ & DEVELOPER FREEDOM:
+This notice and the institutional documentation in source/assets/ (ABOUT, CLC, COPYRIGHT, EULA, LICENSES, NOTICES, PRIVACY_POLICY, and RELEASE) were authored to satisfy official Microsoft Store compliance requirements. The author expressly grants developers and forks complete freedom to alter, remove, add, or adapt these texts in their own forks and platforms in accordance with local laws and platform rules.
+
+3. OFFICIAL MICROSOFT STORE EDITION & CLEAN UNINSTALL:
+For convenient Windows 10/11 deployment and managed updates, the author distributes the official signed edition on the Microsoft Store (https://apps.microsoft.com/detail/9P289X0185C3), governed by the author's Official EULA alongside the Microsoft Store Standard Application License Terms. The package supports clean uninstallation through Windows Settings or the Start Menu with zero residual background services. Unauthorized paid commercial resale or brand misappropriation of the author's signed binary package by third parties is prohibited.
+
+4. SUPPORT POLICY & MICROSOFT NON-COVERAGE:
+a) Microsoft does NOT provide customer or technical support for EisenPo (Integrated Feynman Module), and Microsoft's Privacy Statement does not cover this software (EisenPo's own Privacy Policy applies exclusively);
+b) Author support is delivered via email (linceu_lighthouse@outlook.com) and public GitHub Issues/Discussions;
+c) Unless covered by a separate written commercial agreement, support is voluntary best-effort according to author availability, without phone support or a 24/7 commercial SLA.
+
+5. AUXILIARY SCOPE, MATURITY LIMITATIONS & DISCLAIMER ("AS IS"):
+This software serves as an auxiliary tool for active studying and personal knowledge organization. Supplied "AS IS" with all faults and without express or implied warranties beyond mandatory consumer law (Official EULA, Brazilian Law No. 9.609/1998, and GNU AGPLv3 Sections 15-16). Critical project schedules, budgets, or professional commitments must always be verified independently under the user's sole responsibility.
+
+6. CUSTOM COMMERCIAL LICENSING & LGPL RESERVATION:
+Organizations seeking bespoke commercial contracts, dedicated support agreements, or proprietary distribution exemptions outside GNU AGPLv3 copyleft terms may contact the author directly at linceu_lighthouse@outlook.com.
+Open-Source Rights Reservation: Nothing herein limits rights granted under LGPLv3 / LGPLv2.1+ (including replacing or relinking compatible Qt 6.12.0 and FFmpeg-n9.0.1 shared libraries and debugging modifications thereto).

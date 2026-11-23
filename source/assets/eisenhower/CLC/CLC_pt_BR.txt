@@ -1,0 +1,31 @@
+ESCLARECIMENTO DE LICENCIAMENTO COMERCIAL E DUPLO LICENCIAMENTO — EisenPo
+Versão: 2026.11.22.0
+Data: 22 de novembro de 2026
+
+Autor e Desenvolvedor: Fernando Nillsson Cidade (Desenvolvedor Individual / Pessoa Física)
+E-mail de Suporte e Contato: linceu_lighthouse@outlook.com
+Repositório Oficial (GNU AGPLv3): https://github.com/fernandoncidade/EisenPo_cpp
+Microsoft Store (Pacote Oficial): https://apps.microsoft.com/detail/9P289X0185C3
+
+--------------------------------------------------------------------------------
+
+1. CÓDIGO-FONTE ABERTO E TRANSPARÊNCIA (GNU AGPLv3):
+O código-fonte integral do EisenPo e de seus módulos integrados nativamente (Pomodoro, Feynman, Agenda e Gantt & BIM 4D) é disponibilizado publicamente no GitHub sob a licença GNU Affero General Public License v3 (GNU AGPLv3). Qualquer indivíduo ou organização possui liberdade irrestrita para inspecionar, compilar, modificar, estender e distribuir compilações próprias conforme os termos da GNU AGPLv3 (e atribuições Qt 6.12.0 LGPLv3 / FFmpeg-n9.0.1 LGPLv2.1+ / SQLite).
+
+2. DOCUMENTAÇÃO EM source/assets/ E LIBERDADE PARA DESENVOLVEDORES:
+Este documento e os demais textos institucionais em source/assets/ (ABOUT, CLC, COPYRIGHT, EULA, LICENSES, NOTICES, PRIVACY_POLICY e RELEASE) foram elaborados para atender às exigências de publicação e conformidade da Microsoft Store. O autor autoriza expressamente que desenvolvedores e forks alterem, excluam, adicionem e adaptem livremente tais documentos em suas próprias distribuições e plataformas, observada a legislação de suas jurisdições.
+
+3. PACOTE OFICIAL DA MICROSOFT STORE E DESINSTALAÇÃO LIMPA:
+Para comodidade de instalação e atualizações gerenciadas no Windows 10/11, o autor disponibiliza o pacote oficial assinado na Microsoft Store (https://apps.microsoft.com/detail/9P289X0185C3), regido por seu EULA Oficial em harmonia com os Termos de Licença Padrão da Microsoft Store. O pacote permite desinstalação limpa pelas Configurações do Windows ou Menu Iniciar sem deixar serviços residentes. Terceiros não possuem autorização para revenda comercial paga não autorizada nem apropriação indevida da marca oficial associada ao pacote assinado pelo autor.
+
+4. POLÍTICA DE SUPORTE E INDEPENDÊNCIA DA MICROSOFT:
+a) A Microsoft NÃO presta suporte técnico nem atendimento ao cliente para o EisenPo (EisenPo), e sua Política de Privacidade não cobre este aplicativo (aplica-se exclusivamente a Política de Privacidade própria do EisenPo);
+b) O suporte eventual do autor ocorre por correio eletrônico (linceu_lighthouse@outlook.com) e pelas abas Issues/Discussions do repositório no GitHub;
+c) Salvo ajuste comercial escrito específico e separado, o atendimento ocorre em regime voluntário de melhores esforços (best-effort), conforme disponibilidade do autor e sem SLA comercial 24/7.
+
+5. ESCOPO AUXILIAR, LIMITAÇÕES DE MATURIDADE E ISENÇÃO ("AS IS"):
+O aplicativo destina-se ao uso como aplicativo auxiliar de produtividade pessoal, estudos, gestão de tarefas e planejamento de cronogramas (e não instrumento definitivo para contratos ou obras críticas). Fornecido "NO ESTADO EM QUE SE ENCONTRA" ("AS IS"), com todas as suas falhas e sem garantias além das imperativas por lei (EULA Oficial, Lei nº 9.609/1998 e GNU AGPLv3 Seções 15-16). Em cronogramas contratuais, orçamentos ou decisões profissionais críticas, o usuário deve sempre conferir resultados de forma independente sob responsabilidade exclusiva do operador.
+
+6. LICENCIAMENTO COMERCIAL SOB MEDIDA E RESERVA LGPL:
+Organizações que desejarem contratos comerciais específicos, suporte corporativo contratado ou licenciamento alternativo fora do copyleft da GNU AGPLv3 devem contatar diretamente o autor em linceu_lighthouse@outlook.com.
+Reserva de licenças open source: Nada neste documento restringe direitos conferidos pela LGPL (substituir ou relinkar bibliotecas compartilhadas compatíveis de Qt 6.12.0 e FFmpeg-n9.0.1 e depurar modificações nessas bibliotecas).

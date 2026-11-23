@@ -1,0 +1,20 @@
+OPEN-SOURCE CORRESPONDING SOURCE OFFER & DUAL-LICENSING SUMMARY
+Product package: EisenPo (Task, Study, and Focus Organizer)
+Official Repository (GNU AGPLv3): https://github.com/fernandoncidade/EisenPo_cpp
+Version family: 2026.9.28.x
+
+1. EISENPO SOURCE CODE (GNU AGPLv3)
+All EisenPo source code (main application + native Pomodoro, Feynman, Agenda, and Gantt & 4D BIM modules + mocks/ utilities) is publicly available in the official GitHub repository under the GNU Affero General Public License v3 (GNU AGPLv3), included in full at LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version3.txt.
+
+2. THIRD-PARTY LGPL COMPONENTS (QT 6.12.0 & FFMPEG-n9.0.1)
+Distributed Windows binary packages include runtime libraries covered by the GNU Lesser General Public License (LGPL), notably Qt 6.12.0 shared libraries (LGPLv3) and FFmpeg-n9.0.1 shared libraries (LGPLv2.1 or later — see LICENSES/FFmpeg_LGPL_BUILD_CONFIGURATION.txt), alongside permissive components documented in THIRD_PARTY_COMPONENT_NOTICES.txt.
+
+For LGPL-covered binaries actually shipped with a binary package, the distributor provides corresponding complete source code, build configuration, and any distributor modifications as required under applicable LGPLv3 / LGPLv2.1 terms.
+
+Request and support channel:
+- Email: linceu_lighthouse@outlook.com
+- Repository / Issues: https://github.com/fernandoncidade/EisenPo_cpp
+Please specify product name (EisenPo), version, distribution package (Microsoft Store MSIX or MSVC/MinGW installer), and requested library filenames.
+
+LGPL library replacement and relinking:
+Packaged builds deploy Qt 6.12.0 and FFmpeg-n9.0.1 as separate dynamic DLLs configured via qt.conf. Nothing in the Official EULA or CLC restricts recipients' rights under the LGPL to replace or relink compatible LGPL libraries, or to reverse engineer solely to the extent necessary to debug modifications to those LGPL libraries.

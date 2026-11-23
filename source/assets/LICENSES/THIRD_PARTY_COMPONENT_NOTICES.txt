@@ -1,0 +1,36 @@
+THIRD-PARTY COMPONENT NOTICES AND DUAL-LICENSING SUMMARY
+Product package: EisenPo (Organizador de Tarefas, Estudos e Foco)
+Repository: https://github.com/fernandoncidade/EisenPo_cpp
+Version family: 2026.9.28.x
+
+This file summarizes the Dual-Licensing hierarchy and third-party components used or shipped in Windows runtime packages for EisenPo and its natively integrated modules (Eisenhower Matrix, Pomodoro, Feynman, Agenda / Activity Registration, and Gantt & 4D BIM).
+
+0. EisenPo Dual-Licensing Architecture
+- Public Source Code (GitHub): Licensed under the GNU Affero General Public License v3 (GNU AGPLv3). Full license text: LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version3.txt (and root LICENSE file).
+- Institutional Compliance Assets (source/assets/): Authored for Microsoft Store compliance; developers and forks are expressly granted full freedom to modify, delete, or adapt them for their own distributions under applicable laws and platform guidelines.
+- Official Signed Microsoft Store / Author Binary Package: Governed by the author's Official EULA and Commercial Licensing Clarification (CLC), preserving all mandatory consumer protections and third-party open-source rights below.
+
+1. Qt 6.12.0 Runtime
+Observed/used modules in EisenPo: Qt Core, Gui, Widgets, Multimedia, Sql, Network, plus LinguistTools (lrelease) for translations, and minimal plugins/translations deployed via windeployqt + qt.conf (generic, iconengines, qml, qsvg, qpdf, and unused image/SQL plugins pruned).
+
+Primary licensing path: GNU Lesser General Public License version 3 (LGPLv3). Full texts are shipped in LICENSES/GNU LESSER GENERAL PUBLIC LICENSE Version 3.txt and LICENSES/GNU GENERAL PUBLIC LICENSE Version 3.txt. Recipients remain fully free to replace or relink compatible Qt shared libraries.
+
+2. FFmpeg (Bundled by Qt 6.12.0 Multimedia for Pomodoro Audio)
+Observed files in distributed package: avcodec-63.dll, avformat-63.dll, avutil-61.dll, swresample-7.dll, swscale-10.dll, and plugins/multimedia/ffmpegmediaplugin.dll.
+
+Observed license: LGPL version 2.1 or later (FFmpeg-n9.0.1 build, no --enable-gpl, no --enable-nonfree). Build flags and compliance notes: LICENSES/FFmpeg_LGPL_BUILD_CONFIGURATION.txt and LICENSES/GNU LESSER GENERAL PUBLIC LICENSE Version 2.1.txt.
+
+3. SQLite / Qt SQL Driver (Agenda & Gantt & 4D BIM)
+EisenPo uses embedded local SQLite storage (listas.db in Agenda and eisenpo_gantt.db in Gantt & 4D BIM) via Qt's qsqlite.dll driver. SQLite is dedicated to the Public Domain / SQLite Blessing (LICENSES/SQLite Blessing.txt). The Qt SQL plugin remains governed by Qt's LGPLv3 terms.
+
+4. MinGW-w64 15.1.0 Runtime (MinGW builds only)
+MinGW distributions ship strictly the three required C/C++/pthread runtime DLLs (libgcc_s_seh-1.dll, libstdc++-6.dll, and libwinpthread-1.dll) under the GNU GPLv3 with GCC Runtime Library Exception 3.1 and MinGW-w64 runtime terms: LICENSES/GNU GENERAL PUBLIC LICENSE Version 3.txt, LICENSES/GCC Runtime Library Exception 3.1.txt, and LICENSES/MinGW-w64 Runtime License.txt.
+
+5. Microsoft Visual C++ 14.52 (v145) App-Local Runtime & Windows SDK 10.0.28000.0 (MSVC builds only)
+MSVC distributions use strict app-local deployment of the five Microsoft Visual C++ Runtime DLLs (msvcp140.dll, msvcp140_1.dll, msvcp140_2.dll, vcruntime140.dll, vcruntime140_1.dll) under Microsoft's redistributable terms (LICENSES/Microsoft Redistributable Runtime Notice.txt). Inno Setup installers omit vc_redist.x64.exe intentionally to avoid unnecessary size inflation.
+
+6. Auxiliary Reference Texts Retained for Package Compatibility
+Additional upstream license reference files (Apache 2.0, BSD-2/3-Clause, ISC, MIT, Zlib, PSF, DirectXShaderCompiler, LLVM OpenMP, llama.cpp MIT) remain present in LICENSES/ so all entries referenced by the internal About dialog remain resolvable without error, even where unused plugins/runtimes are pruned from binary deployments.
+
+7. License Hierarchy
+Official Store EULA/CLC terms apply strictly to the author's official precompiled Store/installer binary and never restrict rights granted by GNU AGPLv3 on public source code or by upstream LGPLv3 / LGPLv2.1+ licenses on third-party shared libraries.

@@ -1,0 +1,44 @@
+END USER LICENSE AGREEMENT (EULA) — Integrated Agenda — Activity Registration Module
+Module ID: plugin_agenda
+Version 2026.11.22.0, November 22, 2026
+
+Copyright (c) 2025-2026 Fernando Nillsson Cidade. All rights reserved.
+
+DUAL-LICENSING AND MICROSOFT INDEPENDENCE NOTICE:
+1. This End User License Agreement (EULA) governs EXCLUSIVELY the precompiled and officially signed binary package distributed by the author on the Microsoft Store (https://apps.microsoft.com/detail/9P289X0185C3) and the author's official release channels. These terms operate in harmony with the Microsoft Store Standard Application License Terms and non-waivable statutory consumer law; in case of conflict for Microsoft Store acquisitions, mandatory Store and statutory rights prevail.
+2. The complete source code of EisenPo (including all native modules: Eisenhower Matrix, Pomodoro, Feynman, Agenda, and Gantt & 4D BIM) is public on GitHub (https://github.com/fernandoncidade/EisenPo_cpp) under the GNU Affero General Public License v3 (GNU AGPLv3), granting full rights to inspect, compile (MSVC or MinGW), modify, fork, and distribute independent builds under AGPLv3.
+3. Institutional documents in source/assets/ may be freely altered, removed, or adapted by developers in their own forks and target platforms.
+4. Microsoft does NOT provide customer support for this application and does NOT cover the Software under any Microsoft privacy statement.
+
+By installing or using the official binary package of EisenPo (Integrated Agenda — Activity Registration Module), you agree to this EULA. If you do not agree, do not install or use the official package and cleanly uninstall it via Windows Settings or the Start Menu.
+
+TERMS AND CONDITIONS:
+
+1. DEFINITIONS
+   "Licensor": Fernando Nillsson Cidade, original author and copyright holder of the project.
+   "Software": The compiled EisenPo application for Windows x64 (Qt 6.12.0), including its natively integrated modules (Integrated Agenda — Activity Registration Module), assets, and documentation.
+   "Licensee" or "you": Individual or entity obtaining the official binary package via the Microsoft Store or Licensor's official channel.
+
+2. LICENSE GRANT & CLEAN UNINSTALLATION
+   Licensor grants a non-exclusive, non-transferable, revocable license to install and operate the official package on compatible Windows devices as an auxiliary tool for academic tracking and activity scheduling (not replacing official institutional systems), subject to Microsoft Store terms or any separate written commercial contract.
+   The User holds the guaranteed right to cleanly uninstall and remove the Software anytime via Windows Settings -> Apps -> Installed Apps (or Start Menu -> Uninstall) without leaving background services running.
+
+3. RESTRICTIONS ON THE OFFICIAL BINARY PACKAGE & LGPL RESERVATION
+   Strictly with respect to the author's signed official binary package, you may not:
+   a) Commercially resell for a fee, rent, or redistribute the author's signed binary package as your own product without prior written consent;
+   b) Remove or falsify copyright notices, third-party attributions, or project marks ("EisenPo");
+   c) Use the Software for unlawful purposes.
+   OPEN-SOURCE RIGHTS RESERVATION (LGPL / AGPLv3): Nothing in this EULA restricts rights granted by third-party open-source licenses or GNU AGPLv3 over the public source code. For LGPL-covered components (Qt 6.12.0 under LGPLv3 and FFmpeg-n9.0.1 under LGPLv2.1+), recipients remain free to replace or relink compatible shared libraries and reverse engineer strictly to debug modifications to those LGPL libraries (see LICENSES/ and NOTICES/).
+
+4. INTELLECTUAL PROPERTY & USER CONTENT
+   The official package is licensed, not sold (Brazilian Laws No. 9.609/1998 and No. 9.610/1998). Tasks, study notes, linked files, local databases, and schedules authored or imported by you remain exclusively your property.
+
+5. PRIVACY, LOCAL SOVEREIGNTY & ACCESSIBILITY
+   100% offline local operation. Activity records, subject lists, custom agendas, and display preferences stay solely inside %LOCALAPPDATA%\EisenPo (listas.db, agenda_config.json, agendas/*.json, and tarefas.json), with zero external transmission.
+   Accessibility documentation is included (LICENSES/MS-Store-ADA-v8.9-FINAL-EN.pdf). Review PRIVACY_POLICY for full LGPD / GDPR disclosures.
+
+6. AUXILIARY SCOPE & DISCLAIMER OF WARRANTIES ("AS IS")
+   To the maximum extent permitted by applicable law (in harmony with Microsoft Store terms, Law No. 9.609/1998, and GNU AGPLv3 Sections 15-16, preserving non-waivable statutory consumer protections), the Software is provided "AS IS", "WITH ALL FAULTS", as an auxiliary tool that may contain limitations or human defects in source code or algorithms (including CPM scheduling, calendars, and cross-module sync). Contractual project schedules, cost controls, or safety-critical timelines always require independent professional verification.
+
+7. LIMITATION OF LIABILITY & GOVERNING LAW
+   To the fullest extent permitted by mandatory law, Licensor shall not be liable for indirect, incidental, or consequential damages, lost profits, missed contractual deadlines, or loss of local files; regular backups are strongly advised. Governed by the laws of the Federative Republic of Brazil (preserving mandatory consumer protection laws in Licensee's jurisdiction), with venue in São José dos Pinhais/PR where legally permissible. Voluntary best-effort support: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/EisenPo_cpp.

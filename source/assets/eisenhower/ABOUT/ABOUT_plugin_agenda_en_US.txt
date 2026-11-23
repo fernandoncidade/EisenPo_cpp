@@ -1,0 +1,31 @@
+Project: EisenPo
+Module ID: plugin_agenda
+Version: 2026.11.22.0
+Date: September 28, 2026
+Author: Fernando Nillsson Cidade
+Email: linceu_lighthouse@outlook.com
+Official Repository (GNU AGPLv3): https://github.com/fernandoncidade/EisenPo_cpp
+Microsoft Store (Official Release): https://apps.microsoft.com/detail/9P289X0185C3
+
+Description:
+Natively compiled module inside EisenPo dedicated to academic and professional Activity Registration (course, syllabus, semester, subject, class, assessment category, dates, times, and grades), featuring hierarchical custom agendas, independent color modes, and local SQLite persistence (listas.db).
+
+Key features:
+- Structured assessment logging directly synced into unified tasks in tarefas.json.
+- Custom hierarchical tree schedules saved under agendas/*.json with referential integrity on deletion.
+- Embedded local SQLite database (listas.db) with freeze-free in-memory loading.
+- Independent color theme controls (theme-adaptive Black and Colorful) stored in agenda_config.json.
+
+Native Architecture & Local-First Data Sovereignty (100% Offline):
+- All modules (Eisenhower, Pomodoro, Feynman, Agenda, and Gantt & 4D BIM) are compiled natively into a single Windows x64 executable (C++ / Qt 6.12.0), with zero external plugin DLLs and zero telemetry.
+- Activity records, subject lists, custom agendas, and display preferences stay solely inside %LOCALAPPDATA%\EisenPo (listas.db, agenda_config.json, agendas/*.json, and tarefas.json), with zero external transmission.
+- Clean uninstallation guaranteed via Windows Settings or the Start Menu without leaving background services running.
+
+Transparent Dual Licensing & Microsoft Non-Coverage:
+- Public Source Code (GitHub): Licensed under the GNU Affero General Public License v3 (GNU AGPLv3 — root LICENSE file). Anyone is free to inspect, modify, compile (MSVC 14.52 or MinGW-w64 15.1.0), and redistribute derivative works under GNU AGPLv3.
+- Full Developer Freedom for source/assets/: Institutional texts in source/assets/ were authored to satisfy Microsoft Store requirements; the author expressly grants developers and forks full freedom to modify, remove, add, or adapt those documents in their own distributions.
+- Official Microsoft Store Package: Governed by the author's Official EULA (in harmony with Microsoft Store Standard Application License Terms and non-waivable consumer rights), prohibiting unauthorized paid commercial resale of the author's signed binary package.
+- Microsoft does NOT provide customer support and does NOT cover this software under Microsoft's Privacy Statement. Voluntary best-effort author support is available exclusively via linceu_lighthouse@outlook.com and GitHub Issues.
+
+Auxiliary Scope & Legal Disclaimer ("AS IS"):
+This free application is provided as an auxiliary tool for academic tracking and activity scheduling (not replacing official institutional systems). Because source code and algorithms may contain limitations or human defects, critical outputs must always be verified independently. Supplied "AS IS" without warranties beyond non-waivable statutory law (Official EULA, Law No. 9.609/1998, and GNU AGPLv3 Sections 15-16).

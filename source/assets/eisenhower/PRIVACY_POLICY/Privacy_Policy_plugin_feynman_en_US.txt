@@ -1,0 +1,33 @@
+Privacy Policy — Integrated Feynman Module
+Module ID: plugin_feynman
+Last updated: November 22, 2026
+Version: 2026.11.22.0
+
+This Policy transparently explains how Integrated Feynman Module handles local user data. EisenPo and all of its natively integrated modules (Eisenhower Matrix, Pomodoro, Feynman, Agenda, and Gantt & 4D BIM) are engineered under Privacy by Default to operate 100% locally and offline, with zero telemetry and zero communication with remote servers.
+
+INDEPENDENCE FROM MICROSOFT PRIVACY STATEMENT:
+Microsoft does NOT provide a default privacy policy for EisenPo, and this Software is NOT covered by the Microsoft Privacy Statement (https://www.microsoft.com/en-us/privacy/privacystatement). Data collected separately by Microsoft through the Microsoft Store (downloads, updates, reviews) or optional Windows diagnostics is governed strictly by Microsoft's own privacy statement. All processing inside EisenPo is governed solely by this developer Privacy Policy (Fernando Nillsson Cidade).
+
+1. Core Principles & Zero Remote Data Collection
+- 100% local and offline execution: no task, study note, activity, grade, or schedule record ever leaves your computer automatically.
+- Zero telemetry, zero user accounts, zero ads, and zero background HTTP/HTTPS traffic (uninstantiated auxiliary source code under source/modules/gantt/Gantt/api/ never starts or opens listening sockets at runtime).
+- Does NOT remotely collect PII, sensitive personal data, or data from children (Microsoft Store Policies 10.5.5-10.5.8).
+
+2. Data Processed and Stored Locally by the User
+- Study concepts, explanations, identified gaps, mastery levels, linked local file paths, and custom labels remain strictly local inside %LOCALAPPDATA%\EisenPo (tarefas.json and feynman_rotulos_config.json).
+- User-Driven Import/Export & File Linking: .json, .csv, .xlsx, .pdf, and .ics files are read/written solely at user-selected locations via standard Windows dialogs, and linked study/task files open exclusively upon explicit user click.
+- In evaluation builds when LIBERAR_USO_DEFINITIVO = false, TrialManager tracks only a local first-run timestamp in local trial_info.json and HKCU\SOFTWARE\EisenPo completely offline.
+
+3. Legal Basis & Declared Manifest Capability (LGPD / GDPR / Microsoft Store)
+- All processing happens strictly on-device to execute features requested by the user (Brazilian LGPD Law No. 13.709/2018 Art. 7, V & IX; GDPR execution/legitimate interest).
+- In the MSIX manifest (repo/AppxManifest.xml), only the restricted capability <rescap:Capability Name="runFullTrust" /> is declared (required for native Win32 C++ / Qt 6.12.0 desktop execution and standard Windows file dialogs), with no camera, microphone, location, or contacts access.
+
+4. User Control & Clean Uninstallation (Policy 10.2.7)
+- Users hold full control to inspect, export, back up, or permanently delete files in %LOCALAPPDATA%\EisenPo at any time.
+- Clean removal is available anytime via Windows Settings -> Apps -> Installed Apps (or Start Menu -> Uninstall), leaving zero background services or kernel drivers behind.
+
+5. Privacy & Support Contact (Individual Developer)
+Fernando Nillsson Cidade
+Email: linceu_lighthouse@outlook.com
+Official Repository / Website (GNU AGPLv3): https://github.com/fernandoncidade/EisenPo_cpp
+Notice: Microsoft provides no customer support or privacy coverage for this application.

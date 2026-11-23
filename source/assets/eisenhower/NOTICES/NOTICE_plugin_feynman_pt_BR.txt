@@ -1,0 +1,35 @@
+AVISOS E ATRIBUIÇÕES DE TERCEIROS — Módulo Integrado Feynman
+ID do Módulo: plugin_feynman
+Versão 2026.11.22.0, 22 de novembro de 2026
+
+Este documento resume a arquitetura de duplo licenciamento do EisenPo (Módulo Integrado Feynman) e os componentes de terceiros distribuídos nos pacotes Windows (MSVC 14.52 x64 e MinGW-w64 15.1.0 x64). Os textos integrais das licenças acompanham o pacote em source/assets/LICENSES/.
+
+1. EISENPO (DUPLO LICENCIAMENTO & LIBERDADE DOCUMENTAL)
+   Copyright (C) 2025-2026 Fernando Nillsson Cidade. Todos os direitos reservados.
+   - Código-fonte público no GitHub (https://github.com/fernandoncidade/EisenPo_cpp): licenciado sob GNU Affero General Public License v3 (GNU AGPLv3 — LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version3.txt).
+   - Documentação em source/assets/: elaborada para conformidade na Microsoft Store, com liberdade expressa aos desenvolvedores e forks para alterar, excluir ou adaptar livremente.
+   - Pacote oficial assinado na Microsoft Store (https://apps.microsoft.com/detail/9P289X0185C3): distribuído sob o EULA Oficial do autor.
+   - Caráter Auxiliar ("AS IS"): Aplicativo gratuito para uso como ferramenta auxiliar de estudo ativo e organização pessoal do conhecimento, fornecido "NO ESTADO EM QUE SE ENCONTRA" ("AS IS"), sem garantias além das imperativas por lei (EULA Oficial, Lei nº 9.609/1998 e GNU AGPLv3 Seções 15-16).
+
+2. QT APPLICATION FRAMEWORK (6.12.0)
+   Módulos vinculados: Qt Core, Gui, Widgets, Multimedia, Sql, Network (+ LinguistTools na tradução), implantados dinamicamente via qt.conf.
+   Licença: GNU Lesser General Public License v3 (LGPLv3).
+   Referências: https://www.qt.io/licensing | LICENSES/GNU LESSER GENERAL PUBLIC LICENSE Version 3.txt
+
+3. FFMPEG (n9.0.1 — Qt 6.12.0 Multimedia / Pomodoro Áudio)
+   Bibliotecas observadas: avcodec-63.dll, avformat-63.dll, avutil-61.dll, swresample-7.dll, swscale-10.dll e plugins/multimedia/ffmpegmediaplugin.dll.
+   Licença: LGPL versão 2.1 ou posterior (build compartilhada sem --enable-gpl e sem --enable-nonfree).
+   Detalhes completos de compilação: LICENSES/FFmpeg_LGPL_BUILD_CONFIGURATION.txt e LICENSES/GNU LESSER GENERAL PUBLIC LICENSE Version 2.1.txt.
+
+4. SQLITE (Agenda listas.db & Gantt eisenpo_gantt.db)
+   Utilização via driver Qt SQL (qsqlite.dll) para persistência relacional local.
+   Licença: Dedicação ao Domínio Público / SQLite Blessing (LICENSES/SQLite Blessing.txt | https://www.sqlite.org/copyright.html).
+
+5. RUNTIMES DE COMPILADOR (ISOLADOS POR VARIANTE)
+   - Variante MinGW-w64 (GCC 15.1.0): libgcc_s_seh-1.dll, libstdc++-6.dll, libwinpthread-1.dll sob GNU GPLv3 + GCC Runtime Library Exception 3.1 + MinGW-w64 Runtime (LICENSES/GCC Runtime Library Exception 3.1.txt e LICENSES/MinGW-w64 Runtime License.txt).
+   - Variante MSVC (14.52.37025 / v145 / Windows SDK 10.0.28000.0): implantação estrita app-local de msvcp140*.dll e vcruntime140*.dll sob Termos Redistribuíveis Microsoft (LICENSES/Microsoft Redistributable Runtime Notice.txt), sem embutir vc_redist.x64.exe no instalador.
+
+6. DIREITOS LGPL, PRIVACIDADE & DADOS LOCAIS
+   - Nada no EULA ou no CLC restringe o direito de substituir/relinkar bibliotecas LGPL compatíveis ou realizar engenharia reversa apenas para depurar modificações nessas bibliotecas LGPL (consulte LICENSES/OPEN_SOURCE_SOURCE_OFFER_pt_BR.txt).
+   - Conceitos, explicações, lacunas, níveis de domínio, caminhos de arquivos vinculados e rótulos customizados permanecem armazenados localmente em %LOCALAPPDATA%\EisenPo (tarefas.json e feynman_rotulos_config.json).
+   - Contato / Suporte (sem suporte Microsoft): linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/EisenPo_cpp

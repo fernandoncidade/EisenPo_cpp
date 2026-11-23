@@ -1,0 +1,31 @@
+FFmpeg LGPL BUILD CONFIGURATION NOTICE
+Product package: EisenPo (Eisenhower, Pomodoro, Feynman, Agenda, Gantt & 4D BIM)
+Qt runtime observed: Qt 6.12.0
+FFmpeg version observed in shipped Qt 6.12.0 runtime: FFmpeg-n9.0.1
+
+FFmpeg libraries observed in the distributed Qt multimedia runtime:
+- avcodec-63.dll
+- avformat-63.dll
+- avutil-61.dll
+- swresample-7.dll
+- swscale-10.dll
+- plugins/multimedia/ffmpegmediaplugin.dll
+
+License reported by the FFmpeg DLLs:
+- LGPL version 2.1 or later
+
+MinGW build configuration reported by FFmpeg DLL exports (Qt 6.12.0 mingw_64):
+--prefix=/c/FFmpeg-n9.0.1/build/mingw/installed --disable-programs --disable-doc --disable-debug --enable-network --disable-lzma --enable-pic --disable-vulkan --disable-v4l2-m2m --disable-decoder=truemotion1 --disable-avdevice --disable-avfilter --enable-shared --disable-static
+
+MSVC build configuration reported by FFmpeg DLL strings/exports (Qt 6.12.0 msvc2022_64):
+--prefix=/c/FFmpeg-n9.0.1/build/msvc/installed --disable-programs --disable-doc --disable-debug --enable-network --disable-lzma --enable-pic --disable-vulkan --disable-v4l2-m2m --disable-decoder=truemotion1 --disable-avdevice --disable-avfilter --enable-zlib --extra-cflags='-IC:/zlib-1.3.1/build/amd64' --extra-ldflags='-LIBPATH:C:/zlib-1.3.1/build/amd64' --toolchain=msvc --enable-shared --disable-static
+
+Compliance notes:
+- The observed Qt 6.12.0-provided FFmpeg builds use shared libraries/DLLs.
+- The observed configuration does not include --enable-gpl.
+- The observed configuration does not include --enable-nonfree.
+- The FFmpeg DLL names are not obfuscated.
+- Under EisenPo's dual-licensing architecture (GNU AGPLv3 for the open-source repository on GitHub and the author's Official EULA/CLC for Microsoft Store/official binaries), nothing restricts LGPL rights, including replacing/relinking compatible LGPL libraries and reverse engineering strictly to debug modifications to those LGPL libraries.
+
+Corresponding source:
+- Qt/FFmpeg upstream source information corresponds to the FFmpeg-n9.0.1 build bundled by Qt 6.12.0. See LICENSES/OPEN_SOURCE_SOURCE_OFFER_pt_BR.txt and LICENSES/OPEN_SOURCE_SOURCE_OFFER_en_US.txt.

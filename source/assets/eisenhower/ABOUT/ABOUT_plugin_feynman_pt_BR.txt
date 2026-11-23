@@ -1,0 +1,31 @@
+Projeto: EisenPo
+ID do Módulo: plugin_feynman
+Versão: 2026.11.22.0
+Data: 28 de setembro de 2026
+Autor: Fernando Nillsson Cidade
+E-mail: linceu_lighthouse@outlook.com
+Repositório Oficial (GNU AGPLv3): https://github.com/fernandoncidade/EisenPo_cpp
+Microsoft Store (Edição Oficial): https://apps.microsoft.com/detail/9P289X0185C3
+
+Descrição:
+Módulo nativamente integrado ao EisenPo que implementa a Técnica de Feynman de aprendizado ativo por etapas estruturadas (conceito, explicação simples, identificação de lacunas, revisão e domínio), com rótulos personalizáveis pelo usuário, vinculação local de arquivos de estudo e sincronização direta com tarefas em UnifiedTaskStore.
+
+Principais funcionalidades:
+- Organização em etapas estruturadas da Técnica de Feynman com modos de visualização em Abas, Vertical e Horizontal.
+- Personalização dos rótulos das etapas em Configurações > Editar Rótulos (persistido em feynman_rotulos_config.json).
+- Vínculo de arquivos de estudo locais (PDFs, documentos, anotações) abertos exclusivamente sob comando do usuário.
+- Sincronização bidirecional com tarefas e níveis de domínio na Matriz de Eisenhower.
+
+Arquitetura Nativa & Soberania de Dados (100% Local-First):
+- Todos os módulos (Eisenhower, Pomodoro, Feynman, Agenda e Gantt & BIM 4D) são compilados nativamente em um único executável Windows x64 (C++ / Qt 6.12.0), sem DLLs de plugins externas e sem envio de telemetria.
+- Conceitos, explicações, lacunas, níveis de domínio, caminhos de arquivos vinculados e rótulos customizados permanecem armazenados localmente em %LOCALAPPDATA%\EisenPo (tarefas.json e feynman_rotulos_config.json).
+- Desinstalação limpa garantida pelas Configurações do Windows ou Menu Iniciar, sem serviços residentes.
+
+Duplo Licenciamento Transparente & Independência da Microsoft:
+- Código-Fonte Público (GitHub): Licenciado sob GNU Affero General Public License v3 (GNU AGPLv3 — arquivo LICENSE). Qualquer pessoa ou organização pode estudar, modificar, compilar (MSVC 14.52 ou MinGW-w64 15.1.0) e redistribuir obras derivadas nos termos da AGPLv3.
+- Liberdade Total para Desenvolvedores em source/assets/: A documentação institucional em source/assets/ foi criada para atender às diretrizes da Microsoft Store; o autor autoriza expressamente que desenvolvedores e forks alterem, excluam, adicionem ou adaptem tais arquivos em suas próprias distribuições.
+- Pacote Oficial da Microsoft Store: Regido pelo EULA Oficial do autor (em harmonia com os Termos da Microsoft Store e direitos irrenunciáveis do consumidor), vedada revenda comercial paga não autorizada do pacote oficial assinado.
+- A Microsoft NÃO presta suporte ao cliente e NÃO cobre este software sob a Política de Privacidade da Microsoft. Suporte voluntário best-effort apenas pelo e-mail linceu_lighthouse@outlook.com e GitHub Issues.
+
+Escopo Auxiliar e Isenção Legal ("AS IS"):
+Este aplicativo gratuito destina-se ao uso como ferramenta auxiliar de estudo ativo e organização pessoal do conhecimento. Por poder conter limitações ou falhas humanas no código-fonte e nos algoritmos, resultados críticos devem ser conferidos de forma independente. Fornecido "NO ESTADO EM QUE SE ENCONTRA" ("AS IS"), sem garantias além das imperativas por lei (EULA Oficial, Lei nº 9.609/1998 e GNU AGPLv3 Seções 15-16).

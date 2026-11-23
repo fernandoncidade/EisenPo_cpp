@@ -1,0 +1,35 @@
+THIRD-PARTY NOTICES AND ATTRIBUTIONS — Integrated Agenda — Activity Registration Module
+Module ID: plugin_agenda
+Version 2026.11.22.0, November 22, 2026
+
+This document summarizes EisenPo's (Integrated Agenda — Activity Registration Module) Dual-Licensing architecture and third-party components shipped in Windows packages (MSVC 14.52 x64 and MinGW-w64 15.1.0 x64). Complete license texts accompany the application in source/assets/LICENSES/.
+
+1. EISENPO (DUAL LICENSING & DEVELOPER ASSET FREEDOM)
+   Copyright (C) 2025-2026 Fernando Nillsson Cidade. All rights reserved.
+   - Public GitHub source code (https://github.com/fernandoncidade/EisenPo_cpp): licensed under GNU Affero General Public License v3 (GNU AGPLv3 — LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version3.txt).
+   - Documentation in source/assets/: authored for Microsoft Store compliance with explicit freedom granted to developers and forks to alter, remove, or adapt freely.
+   - Official signed Microsoft Store package (https://apps.microsoft.com/detail/9P289X0185C3): distributed under the author's Official EULA.
+   - Auxiliary Scope ("AS IS"): Free application intended as an auxiliary tool for academic tracking and activity scheduling (not replacing official institutional systems), supplied "AS IS" without warranties beyond mandatory law (Official EULA, Law No. 9.609/1998, and GNU AGPLv3 Sections 15-16).
+
+2. QT APPLICATION FRAMEWORK (6.12.0)
+   Linked modules: Qt Core, Gui, Widgets, Multimedia, Sql, Network (+ LinguistTools for translations), dynamically deployed via qt.conf.
+   License: GNU Lesser General Public License v3 (LGPLv3).
+   References: https://www.qt.io/licensing | LICENSES/GNU LESSER GENERAL PUBLIC LICENSE Version 3.txt
+
+3. FFMPEG (n9.0.1 — Qt 6.12.0 Multimedia / Pomodoro Alarms)
+   Observed runtime libraries: avcodec-63.dll, avformat-63.dll, avutil-61.dll, swresample-7.dll, swscale-10.dll, and plugins/multimedia/ffmpegmediaplugin.dll.
+   License: LGPL version 2.1 or later (shared library build without --enable-gpl and without --enable-nonfree).
+   Build flags and legal notes: LICENSES/FFmpeg_LGPL_BUILD_CONFIGURATION.txt and LICENSES/GNU LESSER GENERAL PUBLIC LICENSE Version 2.1.txt.
+
+4. SQLITE (Agenda listas.db & Gantt eisenpo_gantt.db)
+   Used via Qt's qsqlite.dll driver for local embedded relational storage.
+   License: Public Domain Dedication / SQLite Blessing (LICENSES/SQLite Blessing.txt | https://www.sqlite.org/copyright.html).
+
+5. COMPILER RUNTIMES (ISOLATED BY BUILD FLAVOR)
+   - MinGW-w64 flavor (GCC 15.1.0): libgcc_s_seh-1.dll, libstdc++-6.dll, libwinpthread-1.dll under GNU GPLv3 + GCC Runtime Library Exception 3.1 + MinGW-w64 Runtime (LICENSES/GCC Runtime Library Exception 3.1.txt and LICENSES/MinGW-w64 Runtime License.txt).
+   - MSVC flavor (14.52.37025 / v145 / Windows SDK 10.0.28000.0): strict app-local deployment of msvcp140*.dll and vcruntime140*.dll under Microsoft Redistributable Terms (LICENSES/Microsoft Redistributable Runtime Notice.txt), without embedding vc_redist.x64.exe inside installers.
+
+6. LGPL RIGHTS, PRIVACY & LOCAL DATA
+   - Nothing in the EULA or CLC restricts recipients' rights under LGPL to replace or relink compatible LGPL shared libraries or reverse engineer strictly to debug modifications to those LGPL libraries (see LICENSES/OPEN_SOURCE_SOURCE_OFFER_en_US.txt).
+   - Activity records, subject lists, custom agendas, and display preferences stay solely inside %LOCALAPPDATA%\EisenPo (listas.db, agenda_config.json, agendas/*.json, and tarefas.json), with zero external transmission.
+   - Contact / Support (no Microsoft support): linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/EisenPo_cpp

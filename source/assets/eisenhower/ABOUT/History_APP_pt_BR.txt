@@ -1,0 +1,63 @@
+História e Justificativa do Desenvolvimento
+
+EisenPo nasceu como uma ferramenta pessoal concebida para resolver um problema real de produtividade. O autor, estudante de Bacharelado em Engenharia Civil, convive com dislexia e TDAH e enfrentava dificuldades práticas para organizar tarefas, priorizar estudos e manter o foco em atividades essenciais. Ferramentas existentes mostraram‑se ou complexas demais, ou cheias de distrações — o que agravava a perda de foco em vez de ajudar.
+
+Motivação
+Diante dessa necessidade, foi projetado um aplicativo simples, direto e resistente a ruídos cognitivos: uma interface limpa, controles mínimos e feedback visual claro. A escolha da Matriz de Eisenhower como paradigma surgiu por oferecer um método intuitivo de priorização (Importante × Urgente) que facilita decisões rápidas e redução da sobrecarga mental.
+
+Objetivos de design
+- Minimizar a fricção na adição e classificação de tarefas, permitindo que a ação de registrar uma tarefa seja quase instantânea.
+- Garantir clareza visual com listas divididas por quadrantes e distinção nítida entre tarefas pendentes e concluídas.
+- Oferecer funcionamento offline, preservando privacidade e evitando dependência de serviços externos.
+- Facilitar recuperação e continuidade com salvamento automático em tasks.json e opções de exportação/importação (XLSX, PDF).
+- Suportar múltiplos idiomas e textos imediatos para reduzir esforço cognitivo ao alternar idioma ou contexto.
+
+Desenvolvimento e evolução
+O protótipo inicial foi implementado para uso pessoal e iterado conforme o autor o utilizava durante rotinas de estudo e projetos de engenharia. Feedback prático conduziu a melhorias como placeholders dinâmicos, movimento automático entre listas ao marcar tarefas, menu de contexto para remoção e atalhos intuitivos para operações comuns. Com o tempo, o projeto foi polido para distribuição como executável Windows, permitindo que outros usuários obtenham os benefícios sem necessidade de instalar dependências.
+
+Impacto esperado
+A aplicação visa aumentar a eficiência do usuário ao:
+- Reduzir o tempo gasto decidindo o que fazer a seguir.
+- Diminuir interrupções cognitivas por meio de uma interface focada.
+- Fornecer mecanismos simples para arquivar, restaurar e trocar informações entre dispositivos por exportação.
+
+Visão futura
+Manter o núcleo leve e acessível, com aprimoramentos guiados por uso real: integração com lembretes locais, ajustes de acessibilidade para dislexia/TDAH e melhorias na importação/exportação conforme feedback de usuários.
+
+[[POMODORO_PLUGIN_BEGIN]]
+
+Plugin Pomodoro opcional na evolução do produto
+Uma etapa posterior da evolução do projeto introduziu a possibilidade de um plugin Pomodoro opcional, concebido para estender o fluxo de execução focada sem tornar o organizador principal mais pesado para usuários que não necessitam desse módulo.
+
+Quando presente e detectado pela aplicação, esse plugin adiciona:
+- Um fluxo separado de ciclos de foco e pausa.
+- Compartilhamento local de tarefas entre o planejamento no Eisenhower e a execução no Pomodoro.
+- Configurações de alarme para conclusão de ciclos.
+
+Essa integração foi implementada deliberadamente como módulo opcional para que a experiência padrão do Eisenhower permanecesse simples, direta e leve sempre que o plugin não estiver disponível.
+
+[[POMODORO_PLUGIN_END]]
+
+[[GANTT_PLUGIN_BEGIN]]
+
+Plugin Gantt & BIM 4D opcional na evolução do produto
+Uma etapa avançada da evolução do projeto introduziu a possibilidade de um plugin de Gestão de Cronograma, Gantt & BIM 4D opcional, voltado para planejamento de engenharia, gestão de projetos e acompanhamento temporal de obras e atividades complexas.
+
+Quando presente e detectado pela aplicação, esse plugin adiciona:
+- Gráfico de Gantt interativo com vínculos de predecessoras (TI, II, TT, IT) e marcos.
+- Cálculo automático do Método do Caminho Crítico (CPM) com determinação de folgas livres e totais.
+- Tabela WBS hierárquica com controle de datas, custos e percentual de avanço.
+- Linhas de Base (Baselines) e Linha Fantasma para comparação de prazos previstos e executados.
+- Módulo de Simulação 4D construtiva integrado à linha do tempo do projeto.
+- Importação e exportação de cronogramas em formato CSV e sincronização local com o EisenPo.
+
+[[GANTT_PLUGIN_END]]
+
+Duplo Licenciamento, Transparência Aberta e Atualização Qt 6.12.0
+Na consolidação documental atual, o projeto passou a adotar oficialmente uma arquitetura transparente de Duplo Licenciamento: código-fonte integral aberto no GitHub sob a GNU Affero General Public License v3 (GNU AGPLv3), liberdade expressa concedida aos desenvolvedores sobre a documentação institucional em source/assets/, e distribuição oficial gratuita/assinada na Microsoft Store (9P289X0185C3) regida por EULA Oficial e Política de Privacidade própria (100% local e offline, sem suporte ou cobertura de privacidade pela Microsoft). Paralelamente, os fluxos de compilação foram modernizados para Qt 6.12.0, MSVC 14.52 e MinGW-w64 15.1.0 com pacotes externos enxutos.
+
+Caráter Auxiliar ("AS IS"):
+Por ser uma ferramenta de produtividade e planejamento mantida de forma independente, o EisenPo é fornecido "NO ESTADO EM QUE SE ENCONTRA" ("AS IS") como ferramenta auxiliar — cronogramas contratuais e decisões profissionais críticas requerem conferência independente.
+
+Autor
+Fernando Nillsson Cidade — estudante de Bacharelado em Engenharia Civil. Aplicação desenvolvida para otimizar foco e eficiência durante estudos e atividades profissionais (linceu_lighthouse@outlook.com).

@@ -1,0 +1,33 @@
+Política de Privacidade — Módulo Integrado Feynman
+ID do Módulo: plugin_feynman
+Última atualização: 22 de novembro de 2026
+Versão: 2026.11.22.0
+
+Esta Política explica com total transparência como o Módulo Integrado Feynman trata suas informações locais. O EisenPo e todos os seus módulos nativos integrados (Matriz de Eisenhower, Pomodoro, Feynman, Agenda e Gantt & BIM 4D) foram concebidos sob Privacidade por Padrão (Privacy by Default) para operar 100% localmente e offline, sem telemetria nem comunicação com servidores remotos.
+
+AVISO DE INDEPENDÊNCIA FRENTE À MICROSOFT:
+A Microsoft NÃO fornece uma política de privacidade padrão para o EisenPo, e este aplicativo NÃO é coberto pela Política de Privacidade da Microsoft (https://www.microsoft.com/pt-br/privacy/privacystatement). Os dados coletados separadamente pela plataforma Microsoft Store (downloads, atualizações, avaliações) ou diagnósticos opcionais do Windows seguem a Política de Privacidade da Microsoft. Todo o processamento dentro do aplicativo é regido exclusivamente por esta Política de Privacidade do desenvolvedor (Fernando Nillsson Cidade).
+
+1. Princípios e Ausência Total de Coleta Remota
+- Operação 100% local e offline: nenhuma informação de tarefas, estudos, compromissos, notas ou cronogramas sai do seu computador automaticamente.
+- Zero telemetria, zero contas obrigatórias, zero anúncios e zero solicitações HTTP/HTTPS em segundo plano (eventual código auxiliar dormante em source/modules/gantt/Gantt/api/ não é instanciado nem escuta portas em execução).
+- O aplicativo NÃO coleta dados pessoais identificáveis em nuvem nem dados de crianças ou adolescentes (Políticas Microsoft Store 10.5.5 a 10.5.8).
+
+2. Dados Armazenados e Processados Localmente pelo Usuário
+- Conceitos, explicações, lacunas, níveis de domínio, caminhos de arquivos vinculados e rótulos customizados permanecem armazenados localmente em %LOCALAPPDATA%\EisenPo (tarefas.json e feynman_rotulos_config.json).
+- Importação/Exportação e Vínculos Locais: Arquivos .json, .csv, .xlsx, .pdf e .ics são lidos/gravados apenas nas pastas escolhidas pelo usuário, e arquivos vinculados (Eisenhower/Feynman) só são abertos mediante clique explícito do usuário.
+- Em compilações específicas de avaliação (quando LIBERAR_USO_DEFINITIVO = false), o componente local TrialManager armazena exclusivamente em trial_info.json e HKCU\SOFTWARE\EisenPo o carimbo local da primeira execução, sem acesso à internet.
+
+3. Base Legal e Capacidade Declarada (LGPD / GDPR / Microsoft Store)
+- O tratamento ocorre exclusivamente no dispositivo para executar as funcionalidades solicitadas pelo usuário (art. 7º, V e IX, da Lei nº 13.709/2018 - LGPD; interesse legítimo e execução sob o GDPR).
+- No manifesto MSIX (repo/AppxManifest.xml), declara-se apenas a capacidade restrita <rescap:Capability Name="runFullTrust" /> (necessária para execução desktop Win32 em C++ / Qt 6.12.0 e diálogos padrão de arquivo do Windows), sem uso de câmera, microfone, GPS ou contatos.
+
+4. Soberania do Usuário e Desinstalação Limpa (Política 10.2.7)
+- Você pode visualizar, exportar, copiar ou apagar definitivamente os arquivos em %LOCALAPPDATA%\EisenPo a qualquer momento.
+- Você pode desinstalar e remover o EisenPo de forma limpa a qualquer momento em Configurações do Windows -> Aplicativos -> Aplicativos instalados (ou Menu Iniciar -> Desinstalar), sem deixar serviços em segundo plano ou drivers residuais.
+
+5. Contato de Privacidade e Suporte (Desenvolvedor Individual)
+Fernando Nillsson Cidade
+E-mail: linceu_lighthouse@outlook.com
+Site Oficial / Repositório (GNU AGPLv3): https://github.com/fernandoncidade/EisenPo_cpp
+Aviso: A Microsoft não oferece suporte ao cliente nem garantia de privacidade para este aplicativo.

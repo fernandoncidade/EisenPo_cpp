@@ -1,0 +1,617 @@
+RELEASE NOTES: Version 2026.11.22.0
+Date: November 22, 2026
+
+General Overview
+This release brings a comprehensive upgrade to information transparency, user guidance, study workflow stability, and clean application packaging. All legal overview notices, license terms, copyright notices, and privacy policies for the main application and every integrated module have been updated and harmonized in English and Portuguese. Alongside these updates, the interactive user manual now features clear step-by-step guidance on accessing this documentation and navigating all integrated productivity features, while the distributed package and Windows installer have been streamlined to be leaner, cleaner, and ready to launch immediately.
+
+New Features, Enhancements, and Improvements
+
+1. Complete Transparency, Licensing, and Privacy Hub in the About Window
+- Harmonized Documentation Across Every Tool: Opening Options -> About gives instant access to aligned overviews, license agreements, third-party notices, copyright terms, and privacy policies across the core application and all built-in tools (Eisenhower Matrix, Pomodoro Timer, Feynman Method, Activity Registration, and Gantt Schedule & 4D BIM Simulation).
+- Clear Local Privacy and Clean Uninstall Commitments: All notices explain simply and transparently that your tasks, schedules, and personal notes stay strictly in your local folder on your own computer without internet uploads or analytics tracking, and that the application uninstalls cleanly through Windows Settings.
+- Fast Browsing and Built-In Search: Switch effortlessly across top tabs and tool-specific sub-tabs, search keywords inside the displayed text, and open public open-source license references whenever needed.
+
+2. Expanded and Easier-to-Navigate Interactive User Manual
+- Detailed Usage Guidance: The built-in manual under Options -> Manual has been enriched with step-by-step instructions covering how to read version notes, licensing terms, and offline privacy details directly within the program.
+- Fast Index Jumping and Text Search: Instructions clearly walk through navigating the clickable Table of Contents and sidebar or typing keywords into the integrated search bar to jump smoothly between highlighted results.
+
+3. Sustained Stability and Smoothness in the Feynman Study Workflow
+- Dependable Active Learning Preservation: Internal refinements across the five Feynman Method stages (Concept, Explain Simply, Identified Gaps, Final Review and Simplification, and composite Description) ensure consistent preservation of your study notes, personalized step labels, and seamless synchronization with Eisenhower and Pomodoro tasks.
+
+4. Leaner, Cleaner, and Self-Contained Application Packaging
+- Streamlined Package Without Unnecessary Files: The distributed folder and Windows installer have been refined to include only the icons, alarm sounds, translations, and support components actually needed for smooth execution, shrinking installer download size and accelerating startup.
+
+5. Complete English and Portuguese Synchronization
+- Unified Bilingual Experience: Versions, release dates, built-in manuals, legal notices, and update logs remain fully aligned between English and Portuguese across every dialog and screen in the application.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.9.28.0
+Date: September 28, 2026
+
+General Overview
+This new release introduces essential visual and ergonomic enhancements to project management, streamlining schedule tracking and deadline monitoring across the entire application. All activities in the WBS Table and Gantt Diagram now share the exact same status-based color conventions used in the 4D BIM Simulation, allowing you to instantly identify overdue, in-progress, completed, and future tasks at a glance, with distinctive styling and elegant contrast for completed items. Furthermore, hovering your mouse pointer over any activity node or bar on the timeline reveals a comprehensive, rich informational tooltip that translates dynamically in real time when toggling between English and Portuguese, complete with localized date and time formatting. Finally, the built-in version synchronization system has been expanded to ensure continuous compliance and synchronized versioning across all documentation and policy files for the integrated Agenda and Activity Registration module.
+
+New Features, Enhancements, and Improvements
+
+1. Unified Visual Status Coloring Across Gantt Diagram and WBS Table
+- Instant Visual Clarity: Activities displayed in the WBS Table and activity boxes/nodes across the Gantt Diagram now share the same intuitive color coding established in the 4D BIM Simulation panel.
+- Clear Distinction of Deadlines and Progress:
+  - ⚠️ Delayed / Overdue: Tasks whose deadlines have passed or whose planned start date has elapsed without initiation are prominently highlighted in bold alert red, immediately drawing attention to critical scheduling bottlenecks;
+  - ✅ Executed / Completed: Finished activities feature crisp green typography complemented by refined shading and distinctive box tones in the Gantt Chart, providing clean visual separation from active and pending tasks;
+  - 🔄 In Progress: Tasks currently under active execution are cleanly highlighted in bright blue;
+  - ⏳ Future: Upcoming planned activities that have not yet reached their start date are displayed in balanced, neutral tones.
+- Seamless Consistency: Moving between data tables, timeline bars, and 3D simulation views provides a uniform, cohesive visual language for fast and confident project supervision.
+
+2. Rich Multilingual Tooltips with Real-Time Dynamic Translation
+- Comprehensive Information on Hover: Hovering the mouse over any activity node or bar in the Gantt timeline reveals an informative tooltip summarizing essential project metrics:
+  - Full activity title and corresponding WBS hierarchy code;
+  - Color-coded operational status badge;
+  - Precise start and finish dates and times;
+  - Planned duration formatted in working days;
+  - Physical completion percentage;
+  - Clear Critical Path indicator (highlighted in red for critical activities);
+  - Total float available in hours.
+- Instant Multilingual Switching: All labels, status descriptions, and affirmative/negative indicators within tooltips translate on the fly when switching languages between English and Portuguese, without requiring window reloads or restarts.
+- Region-Aware Date and Time Formats: Dates seamlessly adapt to your preferred locale (month/day/year for English or day/month/year for Portuguese), with clear 24-hour time formatting.
+- Clean and Fluid Transitions: When toggling languages while browsing the timeline, stale tooltips are cleanly dismissed to ensure all subsequent hovers display freshly localized information.
+
+3. Unified Ecosystem Documentation and Version Management
+- Comprehensive Coverage for the Agenda Module: Internal versioning and documentation management now fully encompasses all introductory overviews, commercial license agreements, notices, and privacy policies for the Agenda and Activity Registration module.
+- Rock-Solid Documentation Synchronization: All native modules within the ecosystem (EisenPo Core, Pomodoro, Feynman, Activity Registration, and Gantt & 4D BIM) now maintain full version and date consistency across English and Portuguese documentation, ensuring clarity, transparency, and integrity.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.9.27.0
+Date: September 27, 2026
+
+General Overview
+This milestone release delivers the definitive unification of the EisenPo productivity ecosystem, seamlessly and natively integrating all essential tools directly into the main application. Deep-focus Pomodoro sessions, structured study through the Feynman Method, academic and personal Activity Registration, and full-featured Gantt Project Scheduling with 4D BIM Simulation are now core components built directly into the program. This eliminates any reliance on external add-on files, ensuring rock-solid stability, instantaneous response times, and guaranteed reliability on Windows. Furthermore, the multi-language translation catalog has been fully centralized for seamless English and Portuguese operation across all screens, while task saving and schedule synchronization operate silently and instantaneously in the background without screen hesitation or pauses.
+
+New Features, Adjustments, and Improvements
+
+1. Native and Permanent Integration of All Productivity Modules
+- All Tools in One Single Application: Pomodoro time tracking, Feynman active study frameworks, Activity Registration agendas, and Gantt project management with 4D simulation are now permanent native capabilities built directly into the EisenPo desktop executable.
+- Complete Operational Reliability: No more missing add-ons, accidental antivirus quarantines, or version mismatches. Every feature is always present and ready to use out of the box.
+- Instant Response: Menus, auxiliary dialogs, data tables, and integrated workspace views launch smoothly and instantaneously upon clicking.
+- Simplified Component Overview: The extensions status dialog now clearly confirms the active and permanent readiness of all native capabilities within the system.
+
+2. Unified Language System and Instant Runtime Translation
+- Seamless Multilingual Experience: Switching between English (United States) and Portuguese (Brazil) in the Settings menu dynamically updates all windows, tabs, buttons, table headers, context menus, and interactive dialogs on the fly without restarting the application.
+- Polished and Consistent Messaging: All tooltips, help explanations, and operational instructions have been refined and harmonized for maximum readability and elegance in both supported languages.
+
+3. Instantaneous Task Saving and Continuous Fluidity
+- Background Task Persistence: Adding, editing, drag-and-drop moving, or checking off tasks provides an instantaneous visual response, safely storing your records in the background without causing interface pauses.
+- Real-Time Schedule Synchronization: Changes made to your tasks in the Eisenhower Matrix — such as dates, durations, and finished Pomodoro cycles — continue to reflect immediately across Gantt timeline progress bars, keeping your project plans always synchronized.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.9.26.0
+Date: September 26, 2026
+
+General Overview
+This new release delivers essential improvements in usability, automatic preservation of your visual layout choices, and instant responsiveness across all productivity tools. The display arrangement you select for data tables and timelines in the "Schedule Management, Gantt & 4D BIM" window is now remembered and automatically restored every time you restart the application. In addition, all features in the Tools menu — including Activity Registration, recurring task generation, local reminders, and spaced study reviews — open instantaneously upon clicking, completely eliminating previous pauses and temporary interface freezes. Finally, overall application stability has been reinforced to ensure all database drivers and components operate smoothly on Windows.
+
+New Features, Adjustments, and Improvements
+
+1. Automatic Layout Memory for Gantt & 4D BIM Schedule Tables
+- Your Settings Always Preserved: When configuring your workspace layout in the schedule window via Settings > Layout > Tables, your chosen arrangement is permanently remembered.
+- Five Display Modes Available:
+  - Original: Splits the upper screen half-and-half between the activity table and the Gantt timeline, placing the construction simulation at the bottom;
+  - Top Vertical: Positions data tables side-by-side across the top half and showcases the full Gantt timeline across the bottom half;
+  - Bottom Vertical: Showcases the Gantt timeline across the top half and places data tables side-by-side across the bottom;
+  - Left Horizontal: Stacks data tables vertically along the left side and devotes the entire right side to the Gantt timeline;
+  - Right Horizontal: Places the Gantt timeline along the left side and stacks data tables vertically on the right side.
+- Automatic Restoration on Startup: Whenever you open the schedule window or restart the application, your preferred layout is restored immediately, exactly as you left it, with no need for manual readjustment.
+- Complete Preservation of Preferences: Saving your schedule layout choice seamlessly merges with and protects all other settings you have established on the main workspace.
+
+2. Instant Opening Across All Productivity Tools
+- Immediate Access Without Delays: Every tool in the Tools menu now launches smoothly and instantaneously as soon as you select it.
+- Interface Freezes Eliminated: The brief pauses and screen hesitation previously experienced when opening windows such as Activity Registration, Generate Next Recurrences, Enable Local Reminders, Create Spaced Reviews, or the Gantt Schedule itself have been completely resolved.
+- Direct Retrieval and Fluid Response: Task information is accessed directly without slow disk reloads or repetitive file operations while you browse through menus.
+- Optimized Visual Setup: Dialog windows now render their lists and previews in a single swift pass, providing an exceptionally fast and responsive user experience.
+
+3. Enhanced Stability and Seamless Component Startup
+- Reliable Database Connections: The system startup process has been refined to ensure that internal data modules and activity logs initialize quickly and reliably on Windows.
+- Smart Schedule Synchronization: The Gantt schedule synchronizes its display intelligently when visible on screen, conserving your computer's resources whenever the window is minimized or kept in the background.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.9.25.0
+Date: September 25, 2026
+
+General Overview
+This new release brings fundamental advancements in activity progress tracking, real-time synchronization between daily tasks and project schedules, and an enhanced multilingual user experience. Task completion percentages in the Gantt Chart now faithfully reflect actual effort accomplished through completed Pomodoro focus sessions, progressing in predictable proportional steps without arbitrary initial increments. In addition, all task adjustments — including due date changes, detail modifications, quadrant moves, or completion status updates — now propagate immediately across the entire project schedule. Finally, all productivity tools, such as recurring task generation and local reminder scheduling, now feature comprehensive dynamic runtime translation, instantly updating all buttons, selectors, options, and prompts when switching between English and Portuguese.
+
+New Features, Adjustments, and Improvements
+
+1. Schedule Physical Progress Driven by Focus Cycles
+- Strict and Proportional Calculation: In the Gantt Chart, activity completion percentages are now calculated directly from the number of completed Pomodoro focus intervals relative to the target cycles estimated for that task.
+- Transparent Discrete Steps: Progress advances in clear mathematical steps according to the planned target (for instance: with a target of 4 cycles, each completed cycle advances progress by 25%, moving smoothly through 0%, 25%, 50%, 75%, and 100%).
+- Clean 0% Starting Point: The previous 10% preliminary progress that was automatically applied upon linking or starting tasks with no completed cycles has been removed. Tasks without completed pomodoros start strictly at 0% until the first focus session is finished.
+- Confident 100% Completion: When all planned focus intervals are accomplished or when a task is checked off as completed in the Eisenhower Matrix, the progress bar in the Gantt timeline accurately reaches 100%.
+
+2. Instant Real-Time Synchronization with the Project Schedule
+- Immediate Live Updates: Any modification made to your tasks — adding new activities, adjusting delivery dates, editing duration estimates, moving between priority quadrants, or ticking off completions — is reflected instantly in the Schedule window and Gantt Chart.
+- No Need to Close or Reload: You no longer need to close the schedule window or trigger manual refreshes to see recent updates: task matrix data and Gantt timeline activities remain continuously in sync.
+
+3. Complete Dynamic Translation Across Productivity Tools
+- Seamless Runtime Language Switching: When changing the application language between English and Portuguese, open auxiliary productivity windows adapt their texts immediately without requiring an application restart.
+- Fully Localized Recurrence Management: All buttons and commands in the "Generate Next Recurrences" dialog — including "Restore defaults", "Generate occurrences", "Restore previous tasks", "Save settings", and "Close" —, as well as empty table placeholders and date formatting, update on the fly in the selected language.
+- Completely Translated Local Reminders: The "Enable Local Reminders" dialog dynamically updates all action buttons ("Clear active", "Restore defaults", "Apply reminders", "Save settings", "Close", "Test alert"), the "When to alert" option group, radio selections for custom or task-specific times, and notification confirmations.
+- Unified Productivity Workflow: The "Integrated Study Workflow", "Task Templates", and "Create Spaced Reviews" dialogs also feature full dynamic translation across all labels, dropdowns, and interactive controls.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.9.23.0
+Date: September 23, 2026
+
+General Overview
+This new release delivers major improvements in application startup speed, visual harmony, and everyday planning comfort. The software now launches instantaneously and frees interface controls and mouse interactions on the spot, completely eliminating the previous startup lag or freezing. This update also introduces the new integrated "PoCa" layout, which cleanly combines the Pomodoro Timer, its settings, and two complete calendars into a perfectly aligned left sidebar. All four frames feature millimeter-precise symmetrical alignment, the second calendar sits flush below the first without large vertical gaps, calendar month replication follows a continuous chronological sequence when expanding the panel, and the vertical scrollbar no longer overlaps the right borders of the frames upon opening the application.
+
+New Features, Adjustments, and Improvements
+
+1. Instantaneous Startup Without Freezes
+- Immediate Launch: When opening the application, the main workspace and all its features are ready for use in a fraction of a second.
+- Unlocked Interaction: The several-second delay that previously occurred during startup has been completely eliminated. You can click tasks, switch tabs, or start focus sessions right away without any interface hesitation.
+
+2. New Integrated PoCa Layout (Pomodoro + Dual Calendar)
+- Unified Time and Focus Center: The new layout brings together in a single dedicated left sidebar everything you need to manage your time alongside the Eisenhower Matrix: the Timer frame, the focus Settings frame, and two full Calendar frames (current month and next month).
+- Easy Activation: Access the Settings menu, navigate to Task Layout, User Interface, select PoCa, and click Enable (or Disable) to switch layouts according to your preference.
+
+3. Symmetrical Frame Alignment and Flush Spacing
+- Complete Visual Balance: The lateral borders (left and right) of all four frames in the sidebar (Timer, Settings, Calendar 1, and Calendar 2) are strictly aligned with each other, providing a cohesive and polished look.
+- Elimination of Empty Vertical Gaps: The second calendar sits directly below the first with a clean, uniform 6-pixel spacing, matching the distance between Settings and the first calendar, making optimal use of screen space.
+
+4. Logical Month Sequencing on Calendar Replication
+- Intuitive Reading Order: When dragging the vertical divider to widen the sidebar, calendars duplicate side by side into new columns while maintaining a continuous reading progression:
+  - On the top row, months advance horizontally from left to right (for example: September beside October);
+  - On the bottom row, months continue the sequence starting from where the top row ended (for example: November beside December).
+- Seamless Expansion: This same sequential flow extends naturally to three or more columns if you choose to widen the panel further.
+
+5. Smart Sizing and Scrollbar Overlay Protection
+- Protected Frame Borders: When opening the application at standard dimensions with the integrated layout active, the sidebar width automatically budgets room for the vertical scrollbar.
+- No Obscured Lines: The scrollbar will never cover or sit on top of the right frame border of any panel, ensuring crisp outlines and comfortable proportions for the task quadrants.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.9.21.0
+Date: September 21, 2026
+
+General Overview
+This new release improves application responsiveness and delivers complete transparency when tracking your daily activities. When editing tasks and applying changes, the confirmation dialog now responds and closes instantaneously upon clicking "OK", freeing up the interface immediately so you can keep working without any hesitation or delay. In addition, the "Global Task List" panel in the Calendar view now clearly displays all active tasks that are currently underway, giving you an at-a-glance overview of each task's complete lifecycle, complete with real-time bilingual translation and direct interaction with linked files.
+
+New Features, Adjustments, and Improvements
+
+1. Instantaneous Response When Applying Task Edits
+- Immediate Confirmation: When completing task modifications and clicking the "OK" button, the application registers your changes right away and closes the confirmation dialog on the spot, eliminating any freezing or waiting.
+- Fluid Persistence and Synchronization: Data saving and schedule synchronization proceed smoothly in the background, ensuring maximum agility as you organize your activities.
+
+2. Comprehensive Visibility for Active Tasks in the Calendar ([In Progress])
+- Complete Lifecycle Transparency: The "Global Task List:" panel and calendar date tooltips now report not only completed and pending tasks, but also all active activities highlighted with the "[In Progress]" status badge.
+- Effortless Tracking: Quickly check which tasks are actively being worked on, how many focus sessions have been completed, and their scheduled dates.
+- Rapid Interaction: Double-click any task in the list to open its linked external file directly, or right-click to open the context menu and manage the activity with ease.
+
+3. Dynamic Bilingual Translation and Consistency
+- Real-Time Language Switching: Switching the application language between English and Portuguese immediately translates all calendar status labels — including "[In Progress]" and "[Em Progresso]" — along with tooltips and prompts, without requiring an application restart.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.9.20.0
+Date: September 20, 2026
+
+General Overview
+This new release brings significant improvements focused on time management precision, flexible task execution, and overall application speed. Every task can now have its own individual Pomodoro focus cycle target, allowing simple tasks and complex projects to coexist with custom goals and accurate completion tracking. To prevent confusion during study or work sessions, an intelligent warning dialog alerts you whenever active tasks have targets that differ from the current timer limit, offering one-click options to batch-align targets or continue as planned.
+
+Calendar navigation has also been refined to provide seamless, continuous multi-month synchronization when browsing dates side-by-side. Dragging and dropping tasks between quadrants, tabs, and lists now responds instantaneously and smoothly, and the project schedule window opens instantly without waiting whenever there are no pending task changes. Finally, changing the application language now immediately updates texts across all open dialogs and screens without needing to close and reopen them.
+
+New Features, Adjustments, and Improvements
+
+1. Individual Focus Cycle Targets for Every Task
+- Tailored Planning: Each task can now have its own customized cycle target (ranging from 1 to 999 cycles), configured directly in the task editing window under the "Target Pomodoro Cycles (🎯)" field.
+- Complete Flexibility: Replaces the previous fixed 4-cycle limit. Quick tasks can be completed in just 1 or 2 focus intervals, while larger projects can be planned with the exact number of cycles required.
+- Accurate Progress: The completion percentage for each task is calculated accurately and proportionally based on its own cycle target.
+- Smart Completion: In-progress tasks are only automatically transferred to the completed list once their specific cycle target is fully reached.
+
+2. Cycle Target Warning and Alignment Dialog on Timer Start
+- Proactive Verification: When clicking to start the focus timer, the application safely verifies whether active tasks have targets differing from the timer's current cycle setting.
+- Clear Visual Comparison: If any discrepancy is found, an intuitive warning dialog displays a detailed comparison table showing task names, module origins, individual targets, current timer settings, and expected execution behavior.
+- Three Simple Choices:
+  - "Reset all to timer cycle": quickly aligns all active tasks to the timer's limit and begins the countdown immediately;
+  - "Start anyway": begins the focus session while preserving the individual targets of each task;
+  - "Cancel": cancels timer startup, allowing you to review your tasks at your own pace without altering any settings.
+
+3. Coordinated and Continuous Multi-Month Calendar Browsing
+- Synchronized Page Turns: When displaying multiple months in the calendar panel, moving forward or backward on any month automatically updates all others in an unbroken sequence (current month, next month, etc.), preserving a continuous chronological timeline without duplicate months or unexpected gaps.
+
+4. Instant and Fluid Drag-and-Drop Task Management
+- Effortless Responsiveness: Dragging and dropping tasks across quadrants, status tabs, and lists is now completely fluid and immediate, eliminating interface pauses and providing a fast, seamless daily workflow.
+
+5. Instant Schedule Window Opening
+- Immediate Access: The project scheduling and Gantt planning window now opens instantly whenever there are no new pending changes from the matrix tasks, ensuring effortless transitions between planning tools.
+
+6. Immediate Text Retranslation upon Switching Languages
+- No Restart Required: When switching the application language between English and Portuguese, all active windows already open on screen — including task editing, dialog prompts, and helpful tooltips — update their texts on the spot without interrupting your ongoing work.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.9.14.0
+Date: September 14, 2026
+
+General Overview
+This new release significantly enhances visual ergonomics, workspace customization, and multi-monitor stability across the project scheduling and timeline environments. The Schedule, Gantt & 4D BIM window now introduces five comprehensive layout configurations for data tables and the timeline chart, allowing every user to choose the layout that best suits their planning workflow and monitor size. In addition, the schedule activity table and the Gantt timeline now divide available screen space in a perfectly balanced, fifty-fifty horizontal split.
+
+Working with multiple displays has also been greatly improved: when deleting activities or confirming actions on a secondary screen, all message and confirmation dialogs now open directly centered over the schedule window itself, eliminating unexpected focus shifts or pulling the main application window to the foreground. Furthermore, baseline visual tracking (Ghost Line) on the Gantt chart has been stabilized to remain visible and continuous even when adding new tasks or schedule activities.
+
+In the 4D building construction simulation area, controls and playback buttons have been modernized with an intelligent, adaptive control bar that reflows automatically into one, two, or three lines as you resize panels, ensuring no button or status badge is ever clipped or overlapped. Simulation playback buttons always preserve generous width based on their text, and the reference date picker is neatly positioned right next to its descriptive label. Finally, all new menus, buttons, and dialogs feature instant dynamic real-time translation between English and Portuguese.
+
+New Features, Adjustments, and Improvements
+
+1. Five Layout Modes for Tables and Timeline
+- Personalized Workspace Arrangement: In the Settings menu, access the Layout submenu to choose from five distinct ways to organize tables and the Gantt chart on screen:
+  - Original: the activity table and Gantt timeline divide the top half of the screen fifty-fifty, with the construction simulation table across the bottom;
+  - Top Vertical: the activity table and construction simulation table sit side by side at the top of the screen, while the Gantt timeline spans the entire bottom;
+  - Bottom Vertical: the Gantt timeline occupies the top of the screen, while the activity table and construction simulation table sit side by side at the bottom;
+  - Left Horizontal: the activity and simulation tables are stacked vertically on the left side of the screen, leaving the entire right side for the Gantt timeline;
+  - Right Horizontal: the Gantt timeline occupies the entire left side of the screen, while the activity and simulation tables are stacked vertically on the right side.
+- Automatic Setting Memory: Your selected layout displays a clear visual checkmark and is automatically remembered every time you launch the application.
+
+2. Balanced Fifty-Fifty Space Division between Table and Chart
+- Proportional 50% / 50% Distribution: The schedule activity table and the Gantt timeline now divide horizontal screen space equally, providing generous room for reading deadlines and activity details as well as viewing timeline bars.
+
+3. Seamless Multi-Monitor and Secondary Display Experience
+- Dialogs Centered on the Schedule Window: When deleting activities or responding to confirmation prompts in the schedule window, dialog boxes open directly centered over the window you are working on, even on secondary monitors.
+- No Unwanted Focus Stealing: The application no longer pulls the main window to the foreground when performing schedule actions, ensuring a focused and smooth workflow.
+- Safe, Coordinated Deletion: Activity removal remains thoroughly protected with confirmation prompts and synchronized updates across all connected planning methods.
+
+4. Uninterrupted Baseline Tracking on the Timeline (Ghost Line)
+- Reliable Visual Comparison: The Ghost Line overlay representing saved baseline bars on the Gantt timeline now remains active and stable even after adding new tasks in the main matrix or creating new activities in the schedule, making schedule variance tracking seamless.
+
+5. Intelligent Adaptive 4D Construction Simulation Control Bar
+- Smooth Responsive Control Reflow: When dragging splitter dividers to adjust panel sizes, the simulation control bar automatically rearranges its elements to fit the available space:
+  - On wide displays, all playback buttons, the date picker, the scrubber slider, and status badges align neatly on a single line;
+  - At medium widths, playback buttons and the date picker remain on top while status badges move to a dedicated second row below;
+  - On compact widths, controls organize harmoniously into three rows (row 1 for playback buttons, row 2 for the reference date and scrubber slider, and row 3 for all execution status badges).
+- Dynamic Height Adjustment: The panel height adjusts smoothly to fit the active row layout, preventing any clipping, text truncation, or overlap onto the building element table.
+
+6. Protected Simulation Button Sizing
+- Always Readable Buttons: The start, stop, and reset simulation buttons feature smart minimum width protection based on their full text length and styling, preventing words from being cut off or compressed when adjusting screen dividers or switching languages.
+
+7. Tight Reference Date Positioning
+- Clean and Balanced Alignment: The date picker calendar is placed directly adjacent to the "Reference Date:" label with compact spacing, eliminating awkward gaps and avoiding any visual collisions with the reset button or timeline slider in all display layouts.
+
+8. Complete Dynamic Real-Time Localization
+- Instant In-Place Updates: All new menu items, layout options, confirmation dialogs, and buttons support native English and Portuguese, updating immediately on screen whenever you change the language without needing to restart the application.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.9.13.0
+Date: September 13, 2026
+
+General Overview
+This new release introduces significant advances in project scheduling flexibility, schedule control, and visual ergonomics when creating and managing tasks. The Schedule and Gantt module now allows you to fully customize your project's working calendar: you can choose which days of the week are considered working days (including Saturdays, Sundays, or any required shift pattern) and define the exact start and end times of the daily work shift, with automatic real-time calculation of daily working hours. In addition, a powerful Holiday Manager has been introduced, featuring an interactive visual calendar and one-click automatic loading of official national holidays for 18 countries, ensuring both fixed and movable holidays are treated as non-working days in all schedule calculations.
+
+In the main task area, the task creation form has been thoroughly reorganized into three clear and functional rows. The priority and mastery level dropdown menus now automatically adjust their width based on their longest text, and tasks now include a dedicated field to set their duration in days. Finally, control positioning has been fortified against visual overlap when moving window splitters, and the entire application features complete dynamic real-time translation for both Portuguese and English.
+
+In addition, integration between the Eisenhower Matrix and the Schedule, Gantt & 4D BIM module has been elevated to a full bidirectional synchronization standard. Deleting tasks in any of the quadrants now immediately removes the corresponding activity from the schedule in real time, and inverse deletion initiated from the Gantt timeline, WBS table, or 4D Simulation cleanly removes the task across all matrix quadrants, the Pomodoro module, and unified persistent storage, strictly adhering to the same protected confirmation dialog cycle established in the application. Date and time calculations have been enhanced to guarantee absolute accuracy across all quadrants — especially for the fourth quadrant — with hours and minutes displayed in the WBS table, and all new interfaces feature instant dynamic real-time translation between Portuguese and English.
+
+New Features, Adjustments, and Improvements
+
+1. Custom Working Days and Daily Work Shift Configuration
+- Flexible Working Day Selection: In the schedule settings menu, you can configure exactly which days of the week are working days. If your project operates on Saturdays, Sundays, or customized shifts, simply check the desired days.
+- Daily Work Shift Definition: Set the exact start and end times for the workday (e.g., from 08:00 to 17:00). The system calculates and displays the total daily working hours and minutes in real time.
+- Automatic Schedule Recalculation: Upon saving your settings, the schedule immediately recalculates finish dates across all activities, accounting only for actual working days and hours.
+
+2. Holiday Manager with Interactive Calendar and 18-Country Library
+- Visual Calendar for Marking Days Off: In the holidays window, seamlessly navigate through months and years, clicking directly on the calendar to pick any date that should be designated as a non-working holiday.
+- Effortless Adding and Removal: Enter the holiday name and register it with a single click. Registered holidays appear in an organized list and can be deleted at any time.
+- Automatic Holiday Loading for 18 Nations: Select a country from a preconfigured list of 18 nations (Brazil, United States, Portugal, Argentina, Canada, United Kingdom, France, Germany, Italy, Spain, Japan, China, Mexico, Chile, Colombia, Uruguay, Paraguay, and Australia) and click the Apply button. The application instantly populates official national holidays, automatically calculating both fixed dates and movable holidays.
+- Engineering-Grade Table Interface: The holiday table features columns that can be resized by dragging either their left or right borders, alongside smooth visual highlighting on hover and selection that preserves contrast in both Windows 11 Light and Dark themes.
+- Rigorous Non-Working Day Handling: All registered holidays function identically to weekend days off in schedule logic, automatically extending activity durations across non-working periods.
+
+3. Ergonomic Three-Row Layout for Task Creation
+- Clean Visual Organization: The task creation panel is now structured into three clearly defined rows for effortless input:
+  - First row: task description text box and quadrant destination selector;
+  - Second row: Priority and Mastery Level dropdown menus;
+  - Third row: options to link date, link time, the new Duration field, and the Add Task button.
+- Dynamic Width Auto-Sizing: Priority and mastery level dropdowns now dynamically size their width at runtime to match their longest option, eliminating clipped text or excessive blank space when switching languages.
+
+4. Task Duration in Days
+- Explicit Duration Entry: When creating or editing any task, you can directly specify its planned duration in full days.
+- Comprehensive Tracking: Duration information is carried across all modules, visible in detailed task tooltips, the calendar view, and focus tracking boards.
+
+5. Visual Splitter Protection
+- Control Stability: Enhanced containment boundaries prevent the Add Task button and neighboring controls from overlapping or clipping onto the duration input when adjusting the vertical splitter between quadrants and side panels.
+
+6. Complete Bilingualism and Dynamic Translation
+- The entire graphical interface of the working days dialog, holiday manager, confirmation messages, and task controls features native dynamic translation between Brazilian Portuguese and US English, updating instantly on screen without restarting the application.
+
+7. Bidirectional Synchronization and Protected Deletion Cycle between Gantt/4D BIM and EisenPo
+- Real-Time Updates on EisenPo Task Deletion: When deleting a task in any of the 12 Eisenhower Matrix quadrants or clearing tasks (New File, Clear All), the corresponding activity in the Gantt Chart, WBS Table, and 4D BIM Simulation panel is removed immediately, unlinking dependencies and recalculating the Critical Path (CPM).
+- Inverse Deletion with Complete Dialog Safety Cycle: When deleting an activity directly from the Schedule window (via the context menu in the Gantt timeline, WBS Table, 4D Simulation, or via the Delete key), the system triggers the same 3-step safety cycle as EisenPo:
+  1. Initial confirmation with default focus on the "No" option, preventing accidental deletions;
+  2. Multi-module synchronization notice, informing which connected modules (EisenPo, Pomodoro, etc.) will have the task removed;
+  3. Coordinated deletion across all quadrants, focus lists, and unified storage, followed by a success confirmation and automatic schedule recalculation and saving.
+- Agile Context Menus: "✏️ Edit Activity..." and "❌ Delete Activity" options accessible via right-click on Gantt timeline bars (Canvas), WBS Table rows, and the 4D BIM Simulation element table, along with native Delete key support.
+
+8. Rigorous Date and Time Calculations Across All Quadrants
+- Accurate Calculations for Quadrant 4: Fixed date and time calculation for tasks originating in the "Not Important & Not Urgent" quadrant (as well as its Pending, In Progress, and Completed subdivisions), ensuring exact chronological alignment with the project's configured work calendar.
+- Minute-Level Start and Finish Display: The Start and Finish columns of the WBS Table now display dates and times with minutes ("dd/MM/yyyy HH:mm") whenever a task has a scheduled time, including detailed tooltips.
+- Enhanced In-Progress List Integration: Improved recognition of "In Progress" task lists across all quadrants when mapping priorities and synchronizing activities into the schedule.
+
+9. Expanded Real-Time Dynamic Translation Keys
+- Complete Coverage for Dialogs and Menus: All new deletion messages, inter-module synchronization notices, context menus, and status bar notifications have been incorporated into the ".ts" translation source files and compiled into ".qm" binaries.
+- Fluid Switching without Restarting: Users can freely switch between Portuguese and English at any time, and all new dialogs, menus, and actions respond instantly in the selected language.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.9.8.0
+Date: September 8, 2026
+
+General Overview
+This version marks a major milestone in the evolution of the application with the arrival of the new Schedule Management, Gantt, and 4D BIM Simulation module, designed to transform physical planning, construction schedule tracking, and project management into a smooth, visual experience fully integrated into your daily workflow. The update also introduces a series of significant improvements in usability, visual comfort, and agility. The interface now features a dedicated menu bar that organizes all major actions into clear and straightforward menus. Planning tables now have a much more flexible and intuitive resizing control, along with precise cell selection without offsets. Information highlighting has been completely enhanced to adapt smoothly and elegantly to both the light and dark themes of Windows 11, preserving the contrast and colors of your data. In addition, advanced schedule control tools have been added, including Baseline saving and comparison, Ghost Line visualization for tracking the planned schedule, and instant recalculation of dates and critical paths.
+
+The version also includes major performance improvements that make language switching instantaneous and free of freezes, dynamic real-time translation for all timeline headers and simulation tables, as well as intelligent protection to prevent conflicts between planning stages.
+
+New Features, Adjustments, and Improvements
+
+1. New Schedule Management, Gantt, and 4D BIM Simulation Module
+
+- Structured Project Planning: Organize projects into phases, deliverables, and hierarchical stages. When tasks are grouped under a main stage, the system automatically calculates and updates the overall start and end dates and the consolidated physical progress of all child activities.
+- Timeline and Visual Gantt Chart: Track task progress on a continuous and elegant horizontal timeline, with options to view the project on a daily, weekly, or monthly scale, a current-day indicator line, and visual connection arrows that show the order of dependent stages.
+- Automatic Critical Path Identification: The system mathematically calculates the activities that determine the final deadline of the construction project or project, automatically highlighting them with bright red bars so you know exactly where to maintain maximum focus.
+- User-Friendly Prevention of Circular Conflicts: If, when connecting task dependencies, you accidentally attempt to make a stage depend on itself or create a closed dependency cycle, the program clearly warns you and prevents the conflict, preserving schedule consistency.
+- Direct Link to the Eisenhower Matrix: Right-click any task in the four quadrants of the matrix to link it directly to a schedule activity. The progress percentage is synchronized automatically, and linked activities display a clear visual indicator.
+- Virtual 4D Construction Simulation: Connect identifiers for virtual building elements (three-dimensional models) to schedule tasks and track the physical progress of the construction through an interactive video player, viewing the real-time status of each component (planned, under construction, completed, ahead of schedule, or delayed).
+- Data Sharing and Exchange: Import and export complete schedules in spreadsheets to exchange information with other project management programs and spreadsheets.
+- New Keyboard Shortcut: Open the schedule and simulation window at any time by pressing the Ctrl+Shift+B shortcut, through the Tools menu, or through the task context menu.
+
+2. New Menu Bar in Schedule and 4D Simulation
+
+- Dedicated "File" and "Settings" Menus: All major work options have been organized into a clear and practical top menu bar.
+- File Menu: Quickly create new activities, edit complete schedule and stage details, safely delete items, and import or export your schedules in spreadsheets to exchange information with other programs.
+- Settings Menu: Access tools to connect dependencies between stages, recalculate dates and critical paths, save and compare baselines, toggle the Ghost Line display, adjust timeline zoom by days, weeks, or months, and synchronize tasks with the Eisenhower Matrix.
+- Immediate Translation: The entire menu bar and its options adapt instantly when switching the application language between Portuguese and English, without requiring the program to be restarted.
+
+3. Instant Language Switching Without Freezes
+
+- Complete Interface Responsiveness: When switching between Portuguese and English in the settings, the application screen, task lists, matrix quadrants, and side panels update all their texts within a fraction of a second.
+- Background Operation: The loading of translation packages and synchronization of linked task information now take place smoothly in the background, eliminating any pause or feeling of freezing in the main window, even with dozens of registered tasks.
+
+4. Complete Dynamic Real-Time Translation
+
+- Fully Localized Timeline: The months of the year and days of the week on the timeline ruler immediately follow the language switch without requiring windows to be closed or reopened.
+- Synchronized Labels and Tables: Linked task labels and all columns in the construction simulation table, such as progress status and element identifiers, adapt live at runtime to the selected language.
+
+5. More Flexible and Intuitive Table Resizing
+
+- Column Adjustment from Both Edges: You can now resize any column by dragging either the right edge or the left edge of the header. Dragging the right edge to the right increases the column width, while dragging it to the left decreases it; dragging the left edge to the left increases the column width, while dragging it to the right decreases it.
+- Adjustable Row Height in 4D Simulation: In the simulation table, you can now also comfortably adjust row height by dragging the dividers of the side header upward or downward.
+
+6. Precise Selection of Cells, Columns, and Rows
+
+- Exact Selection Without Jumps: When clicking with the mouse on any cell in a table, the application selects exactly the cell that was clicked, eliminating accidental selections of neighboring cells.
+- Simplified Multiple Selection: Select continuous blocks of cells by dragging with the mouse or holding down the Shift key, or select individual cells by holding down the Ctrl key.
+- Full Column and Row Selection: Click the top header of a column to select it completely, or the numbered side header to select an entire row, including support for selecting multiple columns or rows at once.
+
+7. Comfortable Visual Highlighting Adapted to Windows 11 Themes
+
+- Dark Theme Adaptation: When hovering over or selecting cells, the system applies a soft gray highlight that is slightly lighter than the background, eliminating white flashes and providing a comfortable, eye-friendly reading experience.
+- Light Theme Adaptation: In the light theme, the highlight applies a balanced gray that is slightly darker than the background, avoiding striking black or blue tones that made visualization more difficult.
+- Smooth Propagation: The soft visual effect propagates harmoniously whether selecting a single cell, multiple cells, an entire row, or an entire column.
+- Status Colors Always Clear: The original labels and colors of tracking statuses remain fully vivid and legible, including completed, in progress, delayed, and future markings.
+
+8. Schedule Control with Baseline and Ghost Line
+
+- Save Baseline: Store a static copy of the originally approved plan to serve as a reference throughout the execution of the construction or project.
+- Compare Baseline: Visually and in detail compare current progress with the dates originally planned to identify delays or stages completed ahead of schedule.
+- Ghost Line on the Timeline: Enable the Ghost Line to view, directly over the bar chart, the projection of the original plan alongside actual execution.
+- Immediate Schedule Recalculation: Recalculate the dates, float, and critical path of all stages on demand with a single click.
+
+9. Agile Synchronization with EisenPo Tasks
+
+- On-Demand Integration: Synchronize task completion percentages and links between the Eisenhower Matrix and the schedule at any time.
+- Direct Import: Import tasks from the matrix to quickly transform them into structured stages within the project schedule.
+
+10. Integrated Module Information and Terms of Use
+
+- Accessible Documentation: The license terms, privacy policies, copyright notices, and information about the schedule module can now be accessed directly from the application's "About" window, in both Portuguese and English.
+
+Important Notes:
+
+- All your data, tasks, schedules, notes, and preferences remain fully preserved and secure in the local storage of your computer.
+- The new features and improvements take effect immediately when starting the new version.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.9.6.0
+Date: September 6, 2026
+
+General Summary
+This update brings meaningful usability improvements, visual comfort, and customization to your daily workflow. The task editing window has been completely enhanced with smart responsive resizing and native maximize and minimize controls; the Feynman Method module now allows you to freely customize study step names; the task context menu has been reorganized into a more intuitive sequence; and the visual alignment of frames and vertical dividers has been unified with precision.
+
+New Features, Enhancements, and Improvements
+
+1. Wider, More Comfortable, and Intelligent "Edit Task" Window
+- New Window Controls: You can now maximize the task editing window to fill the entire screen with a single click on the maximize button in the titlebar, alongside the standard minimize button.
+- Spacious Organization in Wide Mode: When widening or maximizing the window, the layout automatically reorganizes to provide maximum comfort for reading and writing: notes and detailed descriptions expand across the entire left half, while task details (task title, priority, mastery level, pomodoros, linked files, dates/times) and action buttons cleanly anchor to the bottom-right.
+- Smooth Transition Without Jitter: Resizing the window horizontally between compact and wide views transitions smoothly and stably, eliminating any flickering or jitter when dragging borders back and forth.
+- Overlap Protection When Reducing Height: When narrowing the window height from the top or bottom edges, all text fields and buttons remain firmly protected, ensuring notes never spill over or squeeze neighboring controls.
+
+2. Customizable Step Labels for the Feynman Method
+- New "Edit Labels" Dialog: In the Feynman window, open the menu "Settings > Edit Labels" to rename and tailor the five learning steps to match your subject, terminology, or personal study habits.
+- Clear Three-Column Overview: The dialog presents side-by-side columns displaying the default original name, the current name in use, and an open text field where you can type your preferred custom title.
+- Quick Actions: Click "Apply" to immediately update labels across all Feynman tabs and panels, "Restore" to reset back to default names at any time, and "Close" when finished.
+- Dedicated Footer "Close" Button: The Feynman window now includes a dedicated "Close" button in the bottom footer, making it easy and convenient to dismiss the learning view.
+
+3. Intuitive Task Context Menu Reorganization
+- Refined Action Sequence: Right-clicking any task in the Eisenhower Matrix now presents actions in a natural, logical order matching your daily productivity flow:
+  1. ✏️ Edit Task
+  2. 🪢 Feynman Description
+  3. 🔁 Recurrence
+  4. 🎨 Color Tasks
+  5. 🔤 Font Settings
+  6. 🔀 Move to Another Quadrant
+  7. 🗑️ Remove Task
+
+4. Seamless Frame Alignment and Uniform Vertical Dividers
+- Synchronized "New Task" Frame: The left and right boundary borders of the "New Task" panel have been aligned with the outer edges of the matrix quadrants below.
+- Uniform Divider Thickness: The vertical divider bars separating the Calendar, Pomodoro, and Matrix Quadrants now share the exact same standardized thickness, delivering a clean, modern, and harmonious look across the entire screen.
+
+Important Notes:
+- All your tasks, notes, linked files, histories, and preferences remain fully preserved and secure in your local computer storage.
+- All new features and improvements take effect immediately upon launching the updated version.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.8.22.0
+Date: August 22, 2026
+
+General Summary
+This update significantly enhances the visual presentation and readability of all task lists across the application. It introduces comprehensive word wrapping for multi-line task titles and notes, instant responsive row height recalculation when resizing windows and splitters, precision typography rendering for linked-file tasks and completed tasks spanning multiple lines, and smart on-demand scrollbar behavior.
+
+New Features, Enhancements, and Improvements
+
+1. Automatic Word Wrapping and Seamless Multi-Line Display
+- Adaptive Text Wrapping: All task lists throughout the workspace — including all Eisenhower Matrix layout modes (Tabs, Quadrants, and 2x2 Matrix), the Calendar side panel, the dedicated Calendar window, and Pomodoro task boards — now feature full automatic word wrapping.
+- Complete and Unclipped Readability: Long titles, rich descriptions, and notes are displayed in full without horizontal word clipping or text truncation.
+
+2. Instant Responsive Resizing and Adaptive Row Heights
+- Real-Time Dynamic Layout: When resizing the main application window, adjusting column widths, or dragging splitters between quadrants and side panels, item row heights and text distributions recalculate instantly.
+- Layout Stability and Polish: Eliminates visual overlapping and ensures smooth, consistent, and harmonious presentation on any display resolution or monitor aspect ratio.
+
+3. Refined Visual Styling for Linked Files and Completed Tasks
+- Superior Typographical Precision: Visual styling for tasks with attached external files (underlined title) and completed tasks (strikethrough text) has been completely redesigned.
+- Multi-Line Precision: Underlines and strikethroughs adapt accurately to the exact boundary of task titles even when broken into multiple lines, preserving crisp contrast, precise alignment, and custom highlight and selection colors across both Light and Dark themes.
+
+4. Intelligent and Distraction-Free Scrolling
+- On-Demand Scrollbars: Horizontal and vertical scrollbars now appear only when strictly necessary, providing cleaner, more spacious task lists without unnecessary visual clutter.
+
+Important Notes:
+- All your tasks, settings, histories, and local files remain safely preserved and completely private on your local computer.
+- All enhancements and fixes take effect immediately upon launching the updated version.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.8.17.0
+Date: August 17, 2026
+
+General Summary
+This update introduces new tab visualization modes for the Eisenhower Matrix (Horizontal Layout and Vertical Layout), refines the visual alignment and structural stability of the "New Task" panel across all visual layouts, improves the reliable execution of Pomodoro sound alarms with preview and volume calibration, and adds real-time dynamic translation for status tabs.
+
+New Features, Enhancements, and Improvements
+
+1. New Tabbed Layout Modes: Horizontal and Vertical
+- Flexible Organization: Under "Settings > Task Layout > User Interface > EisenPo > Tabbed Layout", you can now choose between two display orientations:
+  - "Horizontal": organizes task columns side by side in a wide horizontal layout, optimal for widescreen monitors.
+  - "Vertical": displays tasks stacked vertically in a compact, focused view for each quadrant.
+- Smart Dynamic Sizing: Minimum width for each layout is calculated dynamically based on tab title lengths and status columns, preventing text truncation or excessive compression.
+
+2. Pixel-Perfect Alignment & Stability for "New Task" Panel
+- Consistent Two-Row Layout: Task input controls (description, quadrant selector, priority, mastery level, date/time links, and add button) maintain a clean and harmonious two-row structure, preventing overlapping or visual breaking when resizing the window or adjusting splitters.
+- Symmetrical Lateral Alignment: The left and right borders of the "New Task" panel align symmetrically with the outer edges of the Eisenhower Matrix quadrants in Tabbed, Quadrants, and 2x2 Matrix layouts.
+
+3. Enhanced Pomodoro Sound Alarm System
+- Sound Selection & Preview (.wav): Under "Settings > Specific Settings > Pomodoro > Alarm", select the desired sound from the drop-down list and use the "▶️ Play" and "⏹️ Stop" buttons to preview audio before saving, with live duration displayed in seconds.
+- Reliable & Immediate Playback: Configured alarm audio plays immediately with calibrated volume at the end of each focus and break session, with support for periodic repeats and automated transitions in Automatic Mode.
+
+4. Dynamic Runtime Translation for Status Tabs
+- Instant Bilingualism: Status tab titles and labels ("Pending", "In Progress", and "Completed") update dynamically when switching the application language between Portuguese (pt_BR) and English (en_US), without requiring a restart.
+
+Important Notes:
+- All your tasks, settings, histories, and files remain safely preserved in your local computer storage.
+- All enhancements take effect immediately upon launching the new version.
+
+_________________________________________________
+
+RELEASE NOTES: Version 2026.8.15.0
+Date: August 15, 2026
+
+General Summary
+We are proud to announce the official release of EisenPo (version 2026.8.15.0) — a complete, native, modern productivity, task organization, and structured learning ecosystem built with C++17 and Qt 6.11.1. EisenPo seamlessly combines the classic Eisenhower Matrix with proven methodologies such as the Pomodoro Technique, the Feynman Study Method, and an advanced Activity Registration and Schedule system, delivering total privacy through 100% local storage, blazing-fast performance, and rich visual customization.
+
+Project History and Development
+EisenPo was born from the need to unite proven time management and learning frameworks into a single fast, elegant, and fully autonomous desktop suite. Over intensive architectural and development cycles, the project evolved from separate productivity tools into a unified and cohesive desktop solution.
+
+With a firm commitment to user privacy and digital sovereignty, EisenPo requires no cloud accounts, no telemetry, and no mandatory internet connection: all data, user preferences, history, and files remain safely stored locally on your machine.
+
+Key Features and Capabilities
+
+1. Comprehensive and Adaptable Eisenhower Matrix
+- 4 Strategic Quadrants:
+  - Quadrant 1: Important and Urgent (Do First).
+  - Quadrant 2: Important but Not Urgent (Schedule and Plan).
+  - Quadrant 3: Not Important but Urgent (Delegate or Streamline).
+  - Quadrant 4: Not Important and Not Urgent (Eliminate distractions).
+- Three Distinct Layout Modes:
+  - "Tabbed Layout": Fast, focused navigation across individual quadrants.
+  - "Quadrants Layout": Expanded vertical view displaying all 4 quadrants.
+  - "2x2 Matrix Layout": Panoramic simultaneous 2x2 grid view, ideal for wide displays.
+- Smart State Separation:
+  - Dedicated "Pending" and "Completed" tabs within each quadrant, keeping your active workspace tidy while preserving complete history.
+- Fluid Drag-and-Drop:
+  - Effortlessly drag individual or multiple tasks across quadrants, tabs, and completion states with real-time visual feedback.
+
+2. Integrated Annual and Monthly Calendar
+- Full Time Navigation:
+  - Browse tasks by scheduled dates for seamless short, medium, and long-term planning.
+  - Automatic visual highlights for days containing scheduled tasks.
+- Global Task List:
+  - Dedicated side overview panel showing all registered tasks with fast filtering, in-place editing, and secure removal.
+
+3. Integrated Focus Module — Pomodoro Technique
+- Full-Featured Focus Timer:
+  - Customizable focus blocks, short breaks, long breaks, and configurable cycle counts.
+- Smart Automatic Mode:
+  - Autonomous transitions between focus intervals and breaks with customizable alarm ring counts.
+- Dedicated Task Board and Synchronization:
+  - Focus task board tracking estimated vs. completed pomodoro counts with bidirectional synchronization between EisenPo and Pomodoro.
+
+4. Structured Learning Module — Feynman Method
+- 4-Stage Structured Study Framework:
+  - 1. Concept: Clear definition of the learning topic.
+  - 2. Explain Simply: Formulate concepts in plain language as if teaching a beginner.
+  - 3. Identified Gaps: Map uncertainties, blind spots, and points to research further.
+  - 4. Final Review & Simplification: Synthesize and refine core knowledge.
+- Visual Layout Flexibility:
+  - Choose between Tabs, Vertical, or Horizontal layouts to match your preferred study and note-taking workflow.
+
+5. Activity Registration and Hierarchical Schedules
+- Complete Academic and Professional Tracking:
+  - Rich registration capturing course, syllabus, semester, subject, class group, activity type, date, time, priority, and mastery level.
+- Hierarchical Nested Tree Lists:
+  - Create dependent lists (e.g., Course > Semester > Subject) with automatic referential integrity.
+- Custom Schedules:
+  - Create and switch across multiple schedule profiles with custom color palettes.
+
+6. Secure External File Linking and Management
+- Attachment & Direct Link Support:
+  - Link PDFs, documents, spreadsheets, or files of any format to tasks via dialog selector or direct drag-and-drop from Windows Explorer.
+- Safe Native Opening:
+  - Open files with strict path validation and resilient special character handling.
+
+7. Advanced Visual and Typography Customization
+- Color Display Modes:
+  - "Black" Mode: Standardized typography adapting dynamically to Windows 10/11 Light and Dark themes.
+  - "Colored" Mode: Chromatic highlights by category, subject, or priority.
+- Free Task Coloring:
+  - Select one or multiple tasks and apply custom highlight colors via the full color picker.
+- Independent Typography:
+  - Complete font customization (family, size, style, bold, italic, underline, and strikeout) for general tasks and linked file tasks.
+
+8. Real-Time Dynamic Translation (Native Bilingualism)
+- Instant Language Switching:
+  - Full support for Brazilian Portuguese (pt_BR) and US English (en_US).
+  - Immediate runtime updates across menus, buttons, dialogs, forms, and counters without restarting.
+
+9. Data Security, Reliability, and Monitoring
+- Safe Deletion & Synchronous Purge:
+  - Contextual confirmation dialogs protected against accidental clicks with synchronous cleanup across modules.
+- Real-Time Log Manager:
+  - Integrated monitor for chronological event tracking and runtime diagnostics.
+- Native Architecture:
+  - Optimized 64-bit binaries for MinGW and MSVC/Ninja, ensuring fast startup and low memory usage.
+
+Important Notes:
+- EisenPo was designed as a local, sovereign, and permanent desktop suite: all your files, settings, and tasks remain strictly on your device.
+- We thank all users, testers, and supporters who made this release possible. Enjoy EisenPo to achieve the highest level of clarity, focus, and productivity!

@@ -1,0 +1,44 @@
+LICENÇA DE USO DE USUÁRIO FINAL (EULA) — Módulo Integrado Feynman
+ID do Módulo: plugin_feynman
+Versão 2026.11.22.0, 22 de novembro de 2026
+
+Copyright (c) 2025-2026 Fernando Nillsson Cidade. Todos os direitos reservados.
+
+AVISO DE DUPLO LICENCIAMENTO E INDEPENDÊNCIA DA MICROSOFT:
+1. Os termos deste Contrato de Licença de Usuário Final (EULA) aplicam-se EXCLUSIVAMENTE ao pacote binário pré-compilado e assinado distribuído oficialmente pelo autor na Microsoft Store (https://apps.microsoft.com/detail/9P289X0185C3) e canais oficiais de distribuição do autor. Estes termos complementam e observam os Termos de Licença Padrão para Aplicativos da Microsoft Store e os direitos irrenunciáveis da legislação consumerista; em caso de conflito para aquisições na Loja, prevalecem os direitos mínimos garantidos pelas regras da Microsoft Store e pela lei.
+2. O código-fonte completo do EisenPo (incluindo todos os módulos nativos: Matriz de Eisenhower, Pomodoro, Feynman, Agenda e Gantt & BIM 4D) é público no GitHub (https://github.com/fernandoncidade/EisenPo_cpp) sob a Licença GNU Affero General Public License v3 (GNU AGPLv3), garantindo liberdade para estudo, compilação (MSVC ou MinGW), modificação, criação de forks e redistribuição independente nos termos da AGPLv3.
+3. Os documentos institucionais em source/assets/ podem ser livremente alterados, excluídos ou adaptados por desenvolvedores em seus próprios forks e plataformas.
+4. A Microsoft NÃO presta suporte técnico ao cliente por este aplicativo e NÃO cobre o Software sob nenhuma política de privacidade da Microsoft.
+
+Ao instalar ou utilizar o pacote binário oficial do EisenPo (Módulo Integrado Feynman), você concorda com este EULA. Caso discorde, não instale nem utilize o pacote oficial e remova-o de forma limpa pelas Configurações do Windows ou Menu Iniciar.
+
+TERMOS E CONDIÇÕES:
+
+1. DEFINIÇÕES
+   "Licenciador": Fernando Nillsson Cidade, detentor original dos direitos autorais do projeto.
+   "Software": O aplicativo EisenPo compilado para Windows x64 (Qt 6.12.0), incluindo seus módulos nativos integrados (Módulo Integrado Feynman), recursos e documentação.
+   "Licenciado" ou "Você": Pessoa física ou jurídica que obteve o pacote oficial na Microsoft Store ou canal oficial do Licenciador.
+
+2. CONCESSÃO DE LICENÇA E DESINSTALAÇÃO LIMPA
+   O Licenciador concede licença não exclusiva, intransferível e revogável para instalar e utilizar o pacote oficial em dispositivos Windows compatíveis como ferramenta auxiliar de estudo ativo e organização pessoal do conhecimento, nos termos aplicáveis da Microsoft Store ou eventual contrato comercial escrito em separado.
+   O Usuário tem direito garantido à desinstalação limpa a qualquer momento via Configurações do Windows -> Aplicativos -> Aplicativos instalados (ou Menu Iniciar -> Desinstalar), sem deixar serviços ou agentes em segundo plano.
+
+3. RESTRIÇÕES SOBRE O PACOTE BINÁRIO OFICIAL E RESERVA LGPL
+   Em relação estritamente ao pacote oficial assinado distribuído pelo Licenciador, você não poderá:
+   a) Revender comercialmente de forma paga, alugar ou redistribuir o pacote binário oficial do autor como produto próprio sem autorização prévia por escrito;
+   b) Remover ou adulterar avisos de copyright, atribuições de terceiros ou marcas associadas ao projeto ("EisenPo");
+   c) Utilizar o Software para finalidades ilícitas.
+   RESERVA DE LICENÇAS OPEN SOURCE (LGPL / AGPLv3): Nada neste EULA restringe direitos garantidos por licenças open source de terceiros nem pela GNU AGPLv3 sobre o código-fonte público. Para componentes cobertos pela LGPL (Qt 6.12.0 em LGPLv3 e FFmpeg-n9.0.1 em LGPLv2.1+), o destinatário pode substituir ou relinkar bibliotecas compartilhadas compatíveis e realizar engenharia reversa na estrita medida necessária para depurar modificações nessas bibliotecas LGPL (consulte LICENSES/ e NOTICES/).
+
+4. PROPRIEDADE INTELECTUAL E CONTEÚDO DO USUÁRIO
+   O pacote oficial é licenciado, não vendido (Lei nº 9.609/1998 e Lei nº 9.610/1998). Tarefas, anotações, arquivos vinculados, agendas, bancos locais e cronogramas criados ou importados pelo usuário permanecem de propriedade exclusiva do usuário.
+
+5. PRIVACIDADE, SOBERANIA LOCAL E ACESSIBILIDADE
+   Operação 100% offline e local. Conceitos, explicações, lacunas, níveis de domínio, caminhos de arquivos vinculados e rótulos customizados permanecem armazenados localmente em %LOCALAPPDATA%\EisenPo (tarefas.json e feynman_rotulos_config.json).
+   O Software conta ainda com documentação de acessibilidade (LICENSES/MS-Store-ADA-v8.9-FINAL-EN.pdf). Consulte PRIVACY_POLICY para detalhes integrais (LGPD / GDPR).
+
+6. ESCOPO AUXILIAR E ISENÇÃO DE GARANTIAS ("AS IS")
+   Na extensão máxima permitida em lei (em harmonia com os Termos da Microsoft Store, a Lei nº 9.609/1998 e as Seções 15 e 16 da GNU AGPLv3, respeitados eventuais direitos irrenunciáveis do consumidor), o Software é fornecido "NO ESTADO EM QUE SE ENCONTRA" ("AS IS"), "COM TODAS AS SUAS FALHAS", como ferramenta auxiliar, podendo conter limitações ou eventuais falhas no código ou nos algoritmos (incluindo cálculo de cronogramas, CPM, calendários e sincronização). Cronogramas contratuais, orçamento de obras ou decisões críticas exigem conferência independente por profissional habilitado.
+
+7. LIMITAÇÃO DE RESPONSABILIDADE E FORO
+   Na máxima extensão legal não vedada por normas imperativas de consumo, o Licenciador não responde por danos indiretos, lucros cessantes, perda de prazos contratuais ou perda de dados locais decorrentes do uso ou impossibilidade de uso do Software, recomendando-se backups regulares. Regido pelas leis da República Federativa do Brasil (preservadas normas consumeristas aplicáveis no domicílio do usuário), com foro na Comarca de São José dos Pinhais/PR quando admissível em lei. Suporte voluntário best-effort: linceu_lighthouse@outlook.com | https://github.com/fernandoncidade/EisenPo_cpp.

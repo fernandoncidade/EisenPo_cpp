@@ -1,0 +1,20 @@
+OFERTA DE CODIGO-FONTE CORRESPONDENTE E DUPLO LICENCIAMENTO
+Pacote do produto: EisenPo (Organizador de Tarefas, Estudos e Foco)
+Repositorio oficial (GNU AGPLv3): https://github.com/fernandoncidade/EisenPo_cpp
+Familia de versao: 2026.9.28.x
+
+1. CODIGO-FONTE DO EISENPO (GNU AGPLv3)
+Todo o codigo-fonte do EisenPo (aplicativo principal + modulos nativos Pomodoro, Feynman, Agenda e Gantt & BIM 4D + utilitarios mocks/) esta publicamente disponivel no repositorio oficial do GitHub sob a GNU Affero General Public License v3 (GNU AGPLv3), constante em LICENSES/GNU AFFERO GENERAL PUBLIC LICENSE Version3.txt.
+
+2. COMPONENTES LGPL DE TERCEIROS (QT 6.12.0 E FFMPEG-n9.0.1)
+Este pacote binario inclui componentes de runtime licenciados sob a GNU Lesser General Public License (LGPL), notadamente bibliotecas dinamicas do Qt 6.12.0 (LGPLv3) e bibliotecas compartilhadas do FFmpeg-n9.0.1 (LGPLv2.1 ou posterior, vide FFmpeg_LGPL_BUILD_CONFIGURATION.txt), alem de componentes permissivos documentados em THIRD_PARTY_COMPONENT_NOTICES.txt.
+
+Para os componentes cobertos pela LGPL efetivamente distribuidos com o pacote binario, o distribuidor disponibiliza acesso ao codigo-fonte correspondente completo, configuracao de build e eventuais alteracoes, nos exatos termos da LGPLv3 / LGPLv2.1 aplicavel.
+
+Canal de solicitacao e contato:
+- E-mail: linceu_lighthouse@outlook.com
+- Repositorio / Issues: https://github.com/fernandoncidade/EisenPo_cpp
+Informe nome do produto (EisenPo), versao, canal de distribuicao (Microsoft Store ou instalador MSVC/MinGW) e os arquivos solicitados.
+
+Substituicao e relink de bibliotecas LGPL:
+O pacote foi concebido para implantar bibliotecas Qt 6.12.0 e FFmpeg-n9.0.1 como DLLs dinamicas separadas (configuradas via qt.conf). Nada no EULA Oficial ou no CLC restringe os direitos garantidos pela LGPL de substituir ou relinkar bibliotecas compativeis, tampouco a engenharia reversa na estrita medida necessaria para depurar modificacoes nessas bibliotecas LGPL.
